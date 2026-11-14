@@ -1,0 +1,8 @@
+{
+  "assets/body.bin": "2ccadb0b6b94c7308b6c5e57e78a67c90291be8a8a1a065de0d6b46edefcf046",
+  "assets/body.json": "5d37c211755a825e680c7f13ffff00efa4e45479189464ac6a9f74a43e2eefae",
+  "vendor/three.module.js": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+  "assets/fonts/inter-latin-400-normal.woff2": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+  "assets/fonts/inter-latin-600-normal.woff2": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a",
+  "shader-source": "2d7ca379ce7be340b8701a93b4f894854f6c5ecbb85aea9b88dc36e14127eec1"
+}

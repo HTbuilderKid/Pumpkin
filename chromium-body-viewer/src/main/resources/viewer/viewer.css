@@ -1,0 +1,23 @@
+@font-face { font-family:Inter; font-weight:400; src:url("assets/fonts/inter-latin-400-normal.woff2"); }
+@font-face { font-family:Inter; font-weight:600; src:url("assets/fonts/inter-latin-600-normal.woff2"); }
+:root { --ui:Inter,sans-serif; --l0:#6f9bff; --l1:#ffbe2e; --l2:#ff7a1a; --l3:#ff4558; }
+* { box-sizing:border-box; }
+html,body { margin:0; width:100%; height:100%; overflow:hidden; background:#000; }
+.bodywrap { width:100%; height:100%; }
+[hidden] { display:none !important; }
+.lv0 { --lv:var(--l0); } .lv1 { --lv:var(--l1); } .lv2 { --lv:var(--l2); } .lv3 { --lv:var(--l3); }
+#message { position:absolute; left:12px; bottom:12px; color:#dbe6ff; font:14px Inter,sans-serif; }
+.bodywrap { position:relative; flex:1; min-height:0; overflow:hidden; border-radius:3px; background:radial-gradient(ellipse at 50% 42%, rgba(0,50,160,.42), #000 72%); }
+#body { position:absolute; inset:0; width:100%; height:100%; display:block; cursor:grab; touch-action:none; } #body:active { cursor:grabbing; }
+#markers { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+.bodymsg { position:absolute; inset:auto 8px 8px 8px; margin:0; font-size:12px; color:var(--dim); }
+.marker { position:absolute; left:0; top:0; width:0; height:0; padding:0; background:none; border:0; cursor:pointer; pointer-events:auto; }
+.marker i { position:absolute; left:-9px; top:-9px; width:18px; height:18px; border-radius:50%; border:2.5px solid var(--lv, #fff); background:rgba(0,0,0,.35); }
+.marker i::after { content:""; position:absolute; inset:-2.5px; border-radius:50%; border:2px solid var(--lv, #fff); animation:ping 1.7s ease-out infinite; }
+.marker span { position:absolute; left:16px; top:-10px; padding:2px 7px; font:600 11.5px var(--ui); white-space:nowrap; color:#000; background:var(--lv, #fff); border-radius:2px; }
+.marker.flip span { left:auto; right:16px; }
+.marker.sel i { background:var(--lv, #fff); }
+.marker.lv0 { --lv:#fff; } .marker.lv0 i::after { animation:none; }
+@keyframes ping { 0% { transform:scale(1); opacity:.9; } 100% { transform:scale(2.5); opacity:0; } }
+
+@media(prefers-reduced-motion:reduce) { .marker i::after { animation:none; } }
