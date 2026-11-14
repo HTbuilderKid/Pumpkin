@@ -1,0 +1,95 @@
+[
+  {
+    "id": "brain",
+    "name": "Brain, sleep and mood",
+    "meshes": [
+      "brain"
+    ],
+    "spot": "brain",
+    "about": "Sleep and mood are the first things to slip under isolation, confinement and a shifted day-night cycle, and they drag everything else down with them.",
+    "short": "Brain"
+  },
+  {
+    "id": "heart",
+    "name": "Heart and circulation",
+    "meshes": [
+      "heart",
+      "vessels"
+    ],
+    "spot": "heart",
+    "about": "Without gravity, blood and fluid move towards the head and the heart works against less load. Heart rate and blood pressure show how the circulation is adapting.",
+    "short": "Heart"
+  },
+  {
+    "id": "lungs",
+    "name": "Lungs and oxygen",
+    "meshes": [
+      "lungs"
+    ],
+    "spot": "lungs",
+    "about": "A closed cabin can build up carbon dioxide and its air is all you have. Blood oxygen is the quick check.",
+    "short": "Lungs"
+  },
+  {
+    "id": "metabolic",
+    "name": "Blood sugar and energy",
+    "meshes": [
+      "pancreas",
+      "stomach"
+    ],
+    "spot": "pancreas",
+    "about": "Spaceflight changes how the body handles sugar. Diet, stress, poor sleep and less muscle use all push it.",
+    "short": "Blood sugar"
+  },
+  {
+    "id": "core",
+    "name": "Body temperature",
+    "meshes": [
+      "skin"
+    ],
+    "spot": "forehead",
+    "about": "Body heat is harder to shed without convection, and fever is the first sign of infection in a crew that cannot leave.",
+    "short": "Temperature"
+  },
+  {
+    "id": "fluids",
+    "name": "Kidneys, fluids and salts",
+    "meshes": [
+      "kidneys",
+      "bladder"
+    ],
+    "spot": "kidneys",
+    "about": "Fluid shifts and low water intake raise the risk of dehydration and kidney stones. The kidneys also keep the blood's salts in balance.",
+    "short": "Kidneys & fluids"
+  },
+  {
+    "id": "liver",
+    "name": "Liver",
+    "meshes": [
+      "liver"
+    ],
+    "spot": "liver",
+    "about": "The liver processes nutrients and medication. Its enzymes in the blood show strain.",
+    "short": "Liver"
+  },
+  {
+    "id": "bone",
+    "name": "Bones",
+    "meshes": [
+      "pelvis",
+      "spine",
+      "legs"
+    ],
+    "spot": "hip",
+    "about": "Weight-bearing bones lose about 1% to 1.5% of their mineral density per month in microgravity unless they are loaded by exercise.",
+    "short": "Bones"
+  },
+  {
+    "id": "muscle",
+    "name": "Muscle and body mass",
+    "meshes": [],
+    "spot": "thigh",
+    "about": "Muscles that no longer carry your weight shrink quickly. Body mass and exercise time track it.",
+    "short": "Muscle"
+  }
+]

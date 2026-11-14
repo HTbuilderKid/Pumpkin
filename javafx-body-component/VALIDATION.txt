@@ -1,0 +1,11 @@
+Validated with JDK 21 / JavaFX 21.0.6 on Linux.
+Maven package: PASS
+Asset tests: 2 passed, 0 failures, 0 skipped.
+Independent JavaFX named-module host using only the compiled library: PASS
+Bundled model/resource loading: PASS (18 meshes, 9 systems).
+All nine marker button callbacks: PASS
+Selection and marker visibility: PASS
+3D rendering snapshot under Xvfb with Mesa/OpenGL: PASS
+IntegrationExample.java compilation against library: PASS
+Windows/macOS execution: not tested.
+Original WebGL shader: approximated with native JavaFX materials/outlines.
