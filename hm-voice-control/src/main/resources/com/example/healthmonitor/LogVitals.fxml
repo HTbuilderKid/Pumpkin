@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #0b1a4a;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+
+    <top>
+        <HBox alignment="CENTER_LEFT">
+            <padding>
+                <Insets left="16.0" top="16.0" />
+            </padding>
+            <Button fx:id="backButton" prefHeight="36.0" prefWidth="90.0" style="-fx-background-radius: 7; -fx-cursor: hand; -fx-background-color: #9ea8fd;" text="← Back">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="10.0" />
+            </font></Button>
+        </HBox>
+    </top>
+
+    <center>
+        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" style="-fx-background: #0b1a4a; -fx-background-color: #0b1a4a;">
+            <content>
+                <VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #0b1a4a;">
+                    <padding>
+                        <Insets bottom="20.0" left="30.0" right="30.0" top="6.0" />
+                    </padding>
+
+                    <Label text="LOG VITALS" textFill="WHITE">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="36.0" />
+                  </font></Label>
+
+                    <Label maxWidth="360.0" text="New astronaut? Fill everything in. Updating? Enter your ID and only the vitals you want to change." textAlignment="CENTER" wrapText="true">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+
+                    <Region prefHeight="8.0" />
+
+                    <Label style="-fx-text-fill: #9ea8fd;" text="Astronaut ID">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="idField" maxWidth="300.0" prefHeight="40.0" promptText="Required" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7; -fx-border-color: #9ea8fd; -fx-border-radius: 7; -fx-border-width: 1.5;" />
+
+                    <Region prefHeight="6.0" />
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Heart Rate">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="heartRateField" maxWidth="300.0" prefHeight="40.0" promptText="bpm" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Blood Pressure">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <HBox alignment="CENTER" spacing="12.0">
+                        <TextField fx:id="bloodPressureHighField" prefHeight="40.0" prefWidth="144.0" promptText="High" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                     <font>
+                        <Font name="Ubuntu Mono Regular" size="12.0" />
+                     </font></TextField>
+                        <TextField fx:id="bloodPressureLowField" prefHeight="40.0" prefWidth="144.0" promptText="Low" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                     <font>
+                        <Font name="Ubuntu Mono Regular" size="12.0" />
+                     </font></TextField>
+                    </HBox>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Sleep">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="sleepField" maxWidth="300.0" prefHeight="40.0" promptText="hours (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Blood Oxygen">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="bloodOxygenField" maxWidth="300.0" prefHeight="40.0" promptText="SpO2 % (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Blood Sugar">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="bloodSugarField" maxWidth="300.0" prefHeight="40.0" promptText="mg/dL (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Urine Color">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="urineColorField" maxWidth="300.0" prefHeight="40.0" promptText="e.g. pale yellow (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Body Temperature">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="bodyTemperatureField" maxWidth="300.0" prefHeight="40.0" promptText="°C (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+
+                    <Label style="-fx-text-fill: #cfd6f5;" text="Strength">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></Label>
+                    <TextField fx:id="strengthField" maxWidth="300.0" prefHeight="40.0" promptText="e.g. grip strength in kg (optional)" style="-fx-background-color: #14286b; -fx-text-fill: white; -fx-prompt-text-fill: #7f8fc0; -fx-background-radius: 7;">
+                  <font>
+                     <Font name="Ubuntu Mono Regular" size="12.0" />
+                  </font></TextField>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+
+    <bottom>
+        <VBox alignment="CENTER" spacing="6.0" style="-fx-background-color: #0b1a4a;">
+            <padding>
+                <Insets bottom="20.0" top="10.0" />
+            </padding>
+            <Label fx:id="statusLabel" style="-fx-font-size: 12px; -fx-text-fill: #ff8e72;" text="" />
+            <HBox alignment="CENTER" spacing="14.0">
+                <Button fx:id="submitButton" prefHeight="46.0" prefWidth="180.0" style="-fx-background-color: #9ea8fd; -fx-font-weight: bold; -fx-background-radius: 7; -fx-cursor: hand;" text="Submit">
+               <font>
+                  <Font name="Ubuntu Mono Regular" size="16.0" />
+               </font></Button>
+            <Button fx:id="submitButton1" prefHeight="46.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-font-weight: bold; -fx-cursor: hand; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="How it works" textFill="#9ea8fd">
+               <font>
+                  <Font name="Ubuntu Mono Regular" size="16.0" />
+               </font>
+            </Button>
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,6012 @@
+[
+  {
+    "id": 3,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 14,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 24,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 69.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 34,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 71.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 44,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 54,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 64,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 74,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 85,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 69.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 95,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 105,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 115,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 125,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 135,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 145,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 156,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 68.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 166,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 69.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 176,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 65.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 186,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 68.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 196,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 70.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 206,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 70.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 216,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 70.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 227,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 69.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 237,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 66.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 247,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 70.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 257,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 66.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 267,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 277,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 287,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 77.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 298,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 68.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 308,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 318,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 328,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 77.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 338,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 348,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 76.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 358,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 369,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 70.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 379,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 389,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 78.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 399,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 409,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 419,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 429,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 71.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 440,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 450,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 460,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 76.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 470,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 69.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 480,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 490,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 73.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 500,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 78.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 511,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 77.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 521,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 76.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 531,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 74.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 542,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 71.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 552,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 562,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 71.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 572,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 583,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 75.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 593,
+    "crew_id": "SIM-1",
+    "indicator": "bp_dia",
+    "value": 72.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 2,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 13,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 23,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 33,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 117.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 43,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 53,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 63,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 73,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 84,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 94,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 116.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 104,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 112.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 114,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 118.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 124,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 134,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 117.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 144,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 155,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 165,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 175,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 185,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 195,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 205,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 215,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 226,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 107.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 236,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 246,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 256,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 266,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 276,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 286,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 112.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 297,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 112.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 307,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 317,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 327,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 108.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 337,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 114.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 347,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 114.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 357,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 368,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 378,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 388,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 398,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 408,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 418,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 111.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 428,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 439,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 449,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 112.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 459,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 109.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 469,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 112.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 479,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 114.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 489,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 114.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 499,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 113.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 510,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 117.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 520,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 116.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 530,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 541,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 551,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 115.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 561,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 571,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 117.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 582,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 110.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 592,
+    "crew_id": "SIM-1",
+    "indicator": "bp_sys",
+    "value": 114.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 9,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 20,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 85.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 30,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 90.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 40,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 80.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 50,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 60,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 85.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 70,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 80.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 80,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 70.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 91,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 90.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 101,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 90.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 111,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 105.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 121,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 131,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 141,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 105.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 151,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 85.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 162,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 172,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 125.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 182,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 192,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 115.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 202,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 212,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 115.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 222,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 233,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 125.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 243,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 110.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 253,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 115.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 263,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 273,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 283,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 293,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 115.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 304,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 110.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 314,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 135.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 324,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 135.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 334,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 344,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 354,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 364,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 110.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 375,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 385,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 115.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 395,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 125.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 405,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 110.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 415,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 425,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 435,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 135.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 446,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 456,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 466,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 476,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 125.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 486,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 135.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 496,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 135.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 506,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 130.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 517,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 140.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 527,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 110.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 537,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 120.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 548,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 558,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 95.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 568,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 90.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 578,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 80.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 589,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 80.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 599,
+    "crew_id": "SIM-1",
+    "indicator": "exercise",
+    "value": 60.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 10,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 85.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 21,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 86.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 31,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 86.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 41,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 84.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 51,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 86.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 61,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 84.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 71,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 87.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 81,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 92,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 87.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 102,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 88.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 112,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 88.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 122,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 132,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 142,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 85.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 152,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 163,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 97.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 173,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 183,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 93.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 193,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 88.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 203,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 213,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 223,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 234,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 92.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 244,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 254,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 88.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 264,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 274,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 284,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 93.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 294,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 305,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 315,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 96.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 325,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 335,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 345,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 355,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 92.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 365,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 89.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 376,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 386,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 95.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 396,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 97.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 406,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 97.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 416,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 94.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 426,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 90.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 436,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 97.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 447,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 101.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 457,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 95.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 467,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 91.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 477,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 102.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 487,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 98.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 497,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 99.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 507,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 100.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 518,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 101.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 528,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 106.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 538,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 41.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 539,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 100.0,
+    "mission_day": 38.0,
+    "seq": 1,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 549,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 99.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 559,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 100.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 569,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 102.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 579,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 103.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 590,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 101.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 600,
+    "crew_id": "SIM-1",
+    "indicator": "glucose",
+    "value": 102.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 1,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 12,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 22,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 32,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 42,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 52,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 62,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 72,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 83,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 93,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 55.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 103,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 113,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 123,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 133,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 143,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 154,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 164,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 174,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 184,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 58.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 194,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 204,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 214,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 225,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 235,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 245,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 255,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 265,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 275,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 285,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 296,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 306,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 64.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 316,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 326,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 336,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 60.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 346,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 356,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 367,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 377,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 387,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 397,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 59.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 407,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 417,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 61.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 427,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 438,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 448,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 458,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 468,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 478,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 488,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 498,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 509,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 63.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 519,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 64.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 529,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 540,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 550,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 560,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 62.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 570,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 581,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 65.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 591,
+    "crew_id": "SIM-1",
+    "indicator": "hr",
+    "value": 66.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 8,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 19,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 29,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 39,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 49,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 59,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 69,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 79,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 90,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 100,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 110,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 120,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 130,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 140,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 150,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 161,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 171,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 181,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 191,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 201,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 211,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 221,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 232,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 4.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 242,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 252,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 262,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 272,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 282,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 292,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 303,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 313,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 323,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 333,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 4.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 343,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 353,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 363,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 374,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 384,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 394,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 404,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 414,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 424,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 434,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 445,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 455,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 465,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 475,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 485,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 495,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 4.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 505,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 516,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 2.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 526,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 536,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 3.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 547,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 4.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 557,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 5.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 567,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 6.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 577,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 6.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 588,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 5.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 598,
+    "crew_id": "SIM-1",
+    "indicator": "hydration",
+    "value": 6.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 11,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 72.3,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 82,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 72.4,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 153,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 72.5,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 224,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 71.9,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 295,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 71.3,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 366,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 70.9,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 437,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 70.6,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 508,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 70.4,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 580,
+    "crew_id": "SIM-1",
+    "indicator": "mass",
+    "value": 69.9,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 7,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 18,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 28,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 38,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 48,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 58,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 68,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 78,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 89,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 99,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 109,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 119,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 129,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 139,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 149,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 160,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 170,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 180,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 190,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 200,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 210,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 220,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 231,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 241,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 251,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 261,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 271,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 281,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 291,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 302,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 312,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 322,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 332,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 342,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 352,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 362,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 373,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 383,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 393,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 403,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 5.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 413,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 423,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 433,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 444,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 454,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 464,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 474,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 484,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 494,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 504,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 515,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 525,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 535,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 4.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 546,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 556,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 566,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 2.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 576,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 2.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 587,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 2.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 597,
+    "crew_id": "SIM-1",
+    "indicator": "mood",
+    "value": 3.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 6,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.72,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 17,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.86,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 27,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.25,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 37,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.93,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 47,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.63,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 57,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.43,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 67,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.8,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 77,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 8.19,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 88,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.22,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 98,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.65,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 108,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.66,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 118,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.3,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 128,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.29,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 138,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.43,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 148,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 8.19,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 159,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.82,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 169,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.34,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 179,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.94,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 189,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.77,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 199,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.17,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 209,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.62,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 219,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.17,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 230,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.15,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 240,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.87,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 250,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.3,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 260,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.47,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 270,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.98,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 280,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.3,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 290,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.38,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 301,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.68,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 311,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.79,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 321,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.79,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 331,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.54,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 341,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.17,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 351,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.96,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 361,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.55,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 372,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.29,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 382,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.92,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 392,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.74,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 402,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.56,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 412,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.4,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 422,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 7.1,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 432,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.24,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 443,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.56,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 453,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.36,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 463,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.31,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 473,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.51,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 483,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 493,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.74,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 503,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.25,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 514,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.77,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 524,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.59,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 534,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.9,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 545,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 6.06,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 555,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 5.76,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 565,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 5.42,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 575,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 5.26,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 586,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 5.13,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 596,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 4.97,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 601,
+    "crew_id": "SIM-1",
+    "indicator": "sleep",
+    "value": 4.75,
+    "mission_day": 45.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 5,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 16,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 99.0,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 26,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 36,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 46,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 56,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 66,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 76,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 87,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 97,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 107,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 117,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 127,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 137,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 147,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 158,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 168,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 178,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 188,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 198,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 208,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 218,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 229,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 239,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 249,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 259,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 269,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 279,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 96.0,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 289,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 300,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 310,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 320,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 330,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 340,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 99.0,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 350,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 360,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 371,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 381,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 391,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 401,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 99.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 411,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 421,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 431,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 442,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 452,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 462,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 96.0,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 472,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 482,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 492,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 99.0,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 502,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 96.0,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 513,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 523,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 533,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 544,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 554,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 564,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 574,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 585,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 98.0,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 595,
+    "crew_id": "SIM-1",
+    "indicator": "spo2",
+    "value": 97.0,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 4,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 15,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": -13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 25,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 35,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.5,
+    "mission_day": -11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 45,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": -10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 55,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": -9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 65,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 75,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": -7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 86,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": -6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 96,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 106,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 116,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": -3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 126,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": -2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 136,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": -1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 146,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 0.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 157,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 1.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 167,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 2.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 177,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 3.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 187,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 4.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 197,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 5.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 207,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 6.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 217,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 7.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 228,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 37.0,
+    "mission_day": 8.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 238,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 9.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 248,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 37.0,
+    "mission_day": 10.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 258,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 11.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 268,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 12.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 278,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 13.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 288,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 14.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 299,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 15.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 309,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 16.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 319,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 17.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 329,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 18.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 339,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 19.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 349,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 20.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 359,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 37.1,
+    "mission_day": 21.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 370,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 22.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 380,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 23.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 390,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 24.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 400,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 37.0,
+    "mission_day": 25.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 410,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 26.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 420,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 27.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 430,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 28.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 441,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 29.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 451,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 30.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 461,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 31.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 471,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 32.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 481,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 33.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 491,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 34.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 501,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 35.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 512,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 37.0,
+    "mission_day": 36.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 522,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 37.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 532,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.7,
+    "mission_day": 38.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 543,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.5,
+    "mission_day": 39.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 553,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.6,
+    "mission_day": 40.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 563,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 41.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 573,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.5,
+    "mission_day": 42.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 584,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.8,
+    "mission_day": 43.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  },
+  {
+    "id": 594,
+    "crew_id": "SIM-1",
+    "indicator": "temp",
+    "value": 36.9,
+    "mission_day": 44.0,
+    "seq": 0,
+    "source": "simulated",
+    "label": ""
+  }
+]

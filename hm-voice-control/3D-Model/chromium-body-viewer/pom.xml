@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion><groupId>org.pumpkin</groupId><artifactId>chromium-body-viewer</artifactId><version>1.0.0</version>
+ <properties><maven.compiler.release>21</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><javafx.version>21.0.6</javafx.version><jcef.version>jcef-17e805a+cef-152.0.6+g708dc14+chromium-152.0.7977.83</jcef.version></properties>
+ <dependencies>
+  <dependency><groupId>org.openjfx</groupId><artifactId>javafx-controls</artifactId><version>${javafx.version}</version></dependency>
+  <dependency><groupId>me.friwi</groupId><artifactId>jcefmaven</artifactId><version>152.0.6</version></dependency>
+  <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.11.4</version><scope>test</scope></dependency>
+ </dependencies>
+ <build><plugins>
+  <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version></plugin>
+  <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version></plugin>
+  <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId><version>3.8.1</version><executions><execution><id>runtime</id><phase>package</phase><goals><goal>copy-dependencies</goal></goals><configuration><includeScope>runtime</includeScope><excludeGroupIds>org.openjfx</excludeGroupIds><outputDirectory>${project.build.directory}/lib</outputDirectory></configuration></execution><execution><id>javafx-modules</id><phase>package</phase><goals><goal>copy-dependencies</goal></goals><configuration><includeGroupIds>org.openjfx</includeGroupIds><includeClassifiers>linux,linux-aarch64,win,mac,mac-aarch64</includeClassifiers><outputDirectory>${project.build.directory}/javafx</outputDirectory></configuration></execution></executions></plugin>
+
+ </plugins></build>
+ <profiles>
+  <profile><id>linux-amd64</id><activation><os><name>Linux</name><arch>amd64</arch></os></activation><dependencies><dependency><groupId>me.friwi</groupId><artifactId>jcef-natives-linux-amd64</artifactId><version>${jcef.version}</version><scope>runtime</scope></dependency></dependencies></profile>
+  <profile><id>windows-amd64</id><activation><os><family>Windows</family><arch>amd64</arch></os></activation><dependencies><dependency><groupId>me.friwi</groupId><artifactId>jcef-natives-windows-amd64</artifactId><version>${jcef.version}</version><scope>runtime</scope></dependency></dependencies></profile>
+  <profile><id>macos-arm64</id><activation><os><family>mac</family><arch>aarch64</arch></os></activation><dependencies><dependency><groupId>me.friwi</groupId><artifactId>jcef-natives-macosx-arm64</artifactId><version>${jcef.version}</version><scope>runtime</scope></dependency></dependencies></profile>
+  <profile><id>macos-amd64</id><activation><os><family>mac</family><arch>x86_64</arch></os></activation><dependencies><dependency><groupId>me.friwi</groupId><artifactId>jcef-natives-macosx-amd64</artifactId><version>${jcef.version}</version><scope>runtime</scope></dependency></dependencies></profile>
+ </profiles>
+</project>

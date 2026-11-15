@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <!-- Row 1: Pulse Oximeter -->
+      <Label alignment="CENTER" layoutX="44.0" layoutY="41.0" prefWidth="92.0" text="Heart rate" />
+      <Button fx:id="btnHeartRate" layoutX="44.0" layoutY="58.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <Label alignment="CENTER" layoutX="159.0" layoutY="41.0" prefWidth="92.0" text="Blood oxygen" />
+      <Button fx:id="btnBloodOxygen" layoutX="159.0" layoutY="58.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <!-- Row 2: Blood Pressure Monitor -->
+      <Label alignment="CENTER" layoutX="44.0" layoutY="120.0" prefWidth="92.0" text="Pressure, upper" />
+      <Button fx:id="btnPressureUpper" layoutX="44.0" layoutY="137.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <Label alignment="CENTER" layoutX="159.0" layoutY="120.0" prefWidth="92.0" text="Pressure, lower" />
+      <Button fx:id="btnPressureLower" layoutX="159.0" layoutY="137.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <!-- Row 3: Blood Glucose Meter & Ear Thermometer -->
+      <Label alignment="CENTER" layoutX="34.0" layoutY="199.0" prefWidth="112.0" text="Fasting blood sugar" />
+      <Button fx:id="btnBloodSugar" layoutX="44.0" layoutY="216.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <Label alignment="CENTER" layoutX="154.0" layoutY="199.0" prefWidth="102.0" text="Body temperature" />
+      <Button fx:id="btnBodyTemp" layoutX="159.0" layoutY="216.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <!-- Row 4: Urine Colour Chart & Body Mass Device -->
+      <Label alignment="CENTER" layoutX="44.0" layoutY="286.0" prefWidth="92.0" text="Hydration (1 to 8)" />
+      <Button fx:id="btnHydration" layoutX="44.0" layoutY="303.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <Label alignment="CENTER" layoutX="159.0" layoutY="286.0" prefWidth="92.0" text="Body mass" />
+      <Button fx:id="btnBodyMass" layoutX="159.0" layoutY="303.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <!-- Row 5: Wrist Sleep Tracker & Resistance Exercise Device -->
+      <Label alignment="CENTER" layoutX="44.0" layoutY="365.0" prefWidth="92.0" text="Sleep last night" />
+      <Button fx:id="btnSleep" layoutX="44.0" layoutY="382.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <Label alignment="CENTER" layoutX="159.0" layoutY="365.0" prefWidth="92.0" text="Exercise minutes" />
+      <Button fx:id="btnExercise" layoutX="159.0" layoutY="382.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="92.0" text="--" />
+
+      <!-- Right-Side Action Buttons -->
+      <Button fx:id="btnRunTest" layoutX="684.0" layoutY="78.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="115.0" text="Run a test" />
+      <Button fx:id="btnManageCrew" layoutX="684.0" layoutY="145.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="115.0" text="Manage Crew" />
+      <Button fx:id="btnLiveModel1" layoutX="684.0" layoutY="210.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="115.0" text="View Live Model" />
+      <Button fx:id="btnInstructions" layoutX="684.0" layoutY="277.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="115.0" text="Instructions" />
+      <Button fx:id="btnLiveModel2" layoutX="684.0" layoutY="342.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="115.0" text="View Live Model" />
+      <LineChart layoutX="271.0" layoutY="68.0" prefHeight="169.0" prefWidth="399.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

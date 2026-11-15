@@ -1,0 +1,157 @@
+/* Health status page. The look is the Plush widgets (github: plush-ui, MIT) rebuilt in JavaFX CSS, arranged like the
+   Apple Health summary: white rounded cards on a soft grey ground, one rounded typeface, black pill buttons, and a
+   green gradient for whatever is selected.
+
+   Plush tokens used here
+     ground  #f3f3f1    surface #ffffff    fill #f0f0ee    fill-strong #e8e8e5    line #e4e4e1
+     ink     #141414    ink-2   #6e6e72    ink-3 #a3a3a6
+     select  #16c26b -> #b8e62e (text on it stays ink)
+     radius  card 28, row 16, pill 999
+   Type: Open Runde. JavaFX sees its Medium and Semibold weights as separate families, so they are named directly. */
+
+.health-page, .health-guide, .health-toolbar {
+ -fx-font-family:"Open Runde Medium"; -fx-font-size:15px;
+ -fx-base:#ffffff; -fx-background:#f3f3f1; -fx-control-inner-background:#ffffff;
+ -fx-text-base-color:#141414; -fx-text-fill:#141414; -fx-accent:#16c26b; -fx-focus-color:#141414; -fx-faint-focus-color:transparent;
+}
+.health-page { -fx-background-color:#f3f3f1; -fx-padding:0; -fx-background-insets:0; }
+.health-page > .viewport { -fx-background-color:#f3f3f1; }
+.label { -fx-text-fill:#141414; }
+
+/* ---------- type ---------- */
+.page-title   { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:30px; }
+.detail-title { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:28px; }
+.caption      { -fx-font-family:"Open Runde Semibold"; -fx-font-size:13px; -fx-text-fill:#6e6e72; }
+.muted        { -fx-text-fill:#6e6e72; -fx-font-size:14px; }
+.body-text    { -fx-font-size:16px; -fx-line-spacing:3; }
+.error-text   { -fx-text-fill:#c81e1e; -fx-font-size:14px; }
+.legend-cross { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:18px; }
+
+/* ---------- cards ---------- */
+.section { -fx-padding:0; }
+.panel { -fx-padding:26 28 28 28; -fx-background-color:#ffffff; -fx-background-radius:28;
+         -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.06), 26, 0, 0, 8); }
+.tile-wrap   { -fx-padding:5; }
+.hazard-tile { -fx-padding:3; -fx-border-width:2; -fx-border-color:#f5a524; -fx-border-style:segments(6,5) line-cap round; -fx-border-radius:26; }
+
+.health-page .button.metric-tile {
+ -fx-background-color:#ffffff; -fx-background-insets:0; -fx-background-radius:22; -fx-border-width:0;
+ -fx-padding:15 19 15 19; -fx-content-display:graphic-only; -fx-cursor:hand;
+ -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.06), 14, 0, 0, 4);
+}
+.health-page .button.metric-tile:hover { -fx-background-color:#ffffff; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.13), 20, 0, 0, 7); }
+/* the card in the middle of the wheel: its size says it is chosen, so it only gets a deeper shadow */
+.health-page .button.metric-tile.selected, .health-page .button.metric-tile.selected:hover { -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.16), 26, 0, 0, 9); }
+.health-page .button.metric-tile:focused { -fx-background-color:#141414, #ffffff; -fx-background-insets:0, 2.5; -fx-background-radius:22, 19.5; }
+.metric-name  { -fx-font-family:"Open Runde Semibold"; -fx-font-size:17px; }
+.metric-value { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:40px; }
+.metric-unit  { -fx-font-family:"Open Runde Semibold"; -fx-font-size:15px; -fx-text-fill:#6e6e72; }
+.metric-sub   { -fx-font-size:14.5px; -fx-text-fill:#6e6e72; }
+.chevron      { -fx-font-family:"Open Runde Semibold"; -fx-font-size:18px; -fx-text-fill:#a3a3a6; -fx-padding:-4 0 -2 0; }
+
+/* ---------- the wheel ---------- */
+.health-page .button.wheel-nav { -fx-min-width:42; -fx-min-height:42; -fx-max-width:42; -fx-max-height:42; -fx-padding:0 0 4 0; -fx-font-size:24px; -fx-text-fill:#141414;
+ -fx-background-color:#ffffff; -fx-background-radius:999; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.16), 12, 0, 0, 3); }
+.health-page .button.wheel-nav:hover { -fx-background-color:#ffffff; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.28), 16, 0, 0, 5); }
+.status-dot { -fx-cursor:hand; }
+.pointer { -fx-background-color:#ffffff; -fx-background-radius:6; }
+
+/* ---------- detail ---------- */
+.badge { -fx-font-family:"Open Runde Semibold"; -fx-font-size:13px; -fx-text-fill:#6e6e72; -fx-background-color:#f0f0ee; -fx-background-radius:999; -fx-padding:7 14; }
+.verdict-box { -fx-padding:14 18; -fx-background-radius:16; }
+.verdict { -fx-font-size:16px; -fx-line-spacing:4; }
+.verdict-lead { -fx-font-family:"Open Runde"; -fx-font-weight:bold; }
+.entry-card  { -fx-padding:16 18; -fx-background-color:#f7f7f5; -fx-background-radius:20; }
+.action-card, .step-card { -fx-padding:20 22; -fx-background-color:#f3f3f1; -fx-background-radius:22; }
+.action-title { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:20px; }
+.step-number { -fx-font-family:"Open Runde Semibold"; -fx-font-size:13px; -fx-text-fill:#141414; -fx-background-color:#ffffff; -fx-background-radius:999;
+               -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.10), 4, 0, 0, 1); }
+
+/* ---------- buttons: grey pill by default, black pill for the main action ---------- */
+.health-page .button, .health-guide .button, .health-page .toggle-button, .health-guide .toggle-button {
+ -fx-font-family:"Open Runde Semibold"; -fx-font-size:15px; -fx-text-fill:#141414;
+ -fx-background-color:#f0f0ee; -fx-background-insets:0; -fx-background-radius:999; -fx-border-width:0; -fx-padding:11 20; -fx-cursor:hand;
+}
+.health-page .button:hover, .health-guide .button:hover, .health-page .toggle-button:hover, .health-guide .toggle-button:hover { -fx-background-color:#e8e8e5; }
+.health-page .button:armed, .health-guide .button:armed { -fx-background-color:#dcdcd8; }
+.health-page .button:focused, .health-guide .button:focused, .health-page .toggle-button:focused, .health-guide .toggle-button:focused {
+ -fx-background-color:#141414, #ffffff, #f0f0ee; -fx-background-insets:-4, -2, 0; -fx-background-radius:999; }
+.health-page .primary, .health-guide .primary { -fx-background-color:#161616; -fx-text-fill:#ffffff; -fx-padding:11 24; }
+.health-page .primary:hover, .health-guide .primary:hover { -fx-background-color:#333333; }
+.health-page .primary:armed, .health-guide .primary:armed { -fx-background-color:#000000; }
+.health-page .primary:focused, .health-guide .primary:focused { -fx-background-color:#141414, #ffffff, #161616; -fx-background-insets:-4, -2, 0; }
+.health-page .button:disabled, .health-guide .button:disabled { -fx-opacity:.5; }
+.health-page .guide-link { -fx-padding:12 20; -fx-font-size:15px; }
+.health-page .guide-link .text { -fx-text-alignment:left; }
+
+/* scale choices: round chips; the chosen one takes the green gradient */
+.health-page .scale-choice, .health-guide .scale-choice { -fx-min-width:40; -fx-min-height:40; -fx-pref-width:40; -fx-pref-height:40; -fx-padding:0; -fx-font-size:15px; }
+.health-page .scale-choice:selected, .health-guide .scale-choice:selected, .health-page .scale-choice:selected:hover, .health-guide .scale-choice:selected:hover {
+ -fx-background-color:linear-gradient(to bottom right, #16c26b, #b8e62e); -fx-text-fill:#141414;
+ -fx-effect:dropshadow(gaussian, rgba(22,194,107,0.35), 8, 0, 0, 2); }
+.health-page .scale-choice:selected:focused, .health-guide .scale-choice:selected:focused { -fx-background-color:#141414, #ffffff, linear-gradient(to bottom right, #16c26b, #b8e62e); -fx-background-insets:-4, -2, 0; }
+
+/* ---------- fields ---------- */
+.health-page .text-field, .health-guide .text-field {
+ -fx-font-family:"Open Runde Medium"; -fx-font-size:16px; -fx-text-fill:#141414; -fx-prompt-text-fill:#a3a3a6; -fx-highlight-fill:rgba(22,194,107,0.3); -fx-highlight-text-fill:#141414;
+ -fx-background-color:#ffffff; -fx-background-insets:0; -fx-background-radius:14; -fx-border-width:0; -fx-padding:10 14;
+ -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.08), 6, 0, 0, 1);
+}
+.health-page .text-field:focused, .health-guide .text-field:focused { -fx-background-color:#141414, #ffffff; -fx-background-insets:0, 2; -fx-background-radius:14, 12; }
+.health-guide .combo-box, .health-toolbar .combo-box, .health-toolbar .spinner {
+ -fx-background-color:#f0f0ee; -fx-background-insets:0; -fx-background-radius:14; -fx-border-width:0; -fx-padding:3 6; -fx-font-size:14px; }
+.health-guide .combo-box:hover, .health-toolbar .combo-box:hover { -fx-background-color:#e8e8e5; }
+.health-guide .combo-box .list-cell, .health-toolbar .combo-box .list-cell { -fx-text-fill:#141414; -fx-background-color:transparent; -fx-font-family:"Open Runde Semibold"; }
+.health-guide .combo-box .arrow, .health-toolbar .combo-box .arrow { -fx-background-color:#6e6e72; }
+.health-guide .combo-box .arrow-button, .health-toolbar .combo-box .arrow-button { -fx-background-color:transparent; }
+.health-guide .combo-box-popup .list-view, .health-toolbar .combo-box-popup .list-view { -fx-background-color:#ffffff; -fx-background-radius:16; -fx-padding:6; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.16), 22, 0, 0, 8); }
+.health-guide .combo-box-popup .list-cell, .health-toolbar .combo-box-popup .list-cell { -fx-padding:9 12; -fx-background-radius:10; -fx-background-color:transparent; -fx-text-fill:#141414; -fx-font-family:"Open Runde Medium"; }
+.health-guide .combo-box-popup .list-cell:hover, .health-toolbar .combo-box-popup .list-cell:hover { -fx-background-color:#f0f0ee; }
+.health-guide .combo-box-popup .list-cell:selected, .health-toolbar .combo-box-popup .list-cell:selected { -fx-background-color:rgba(22,194,107,0.20); }
+
+/* ---------- disclosures: quiet rows, like a Plush accordion ---------- */
+.health-page .titled-pane, .health-guide .titled-pane { -fx-text-fill:#141414; }
+.health-page .titled-pane > .title, .health-guide .titled-pane > .title {
+ -fx-background-color:transparent; -fx-background-insets:0; -fx-padding:15 2 13 2; -fx-border-color:#e4e4e1 transparent transparent transparent; -fx-border-width:1 0 0 0;
+ -fx-font-family:"Open Runde Semibold"; -fx-font-size:17px; }
+.health-page .titled-pane > .title > .text, .health-guide .titled-pane > .title > .text { -fx-fill:#141414; }
+.health-page .titled-pane > .title > .arrow-button, .health-guide .titled-pane > .title > .arrow-button { -fx-padding:0 10 0 2; }
+.health-page .titled-pane > .title > .arrow-button .arrow, .health-guide .titled-pane > .title > .arrow-button .arrow { -fx-background-color:#a3a3a6; }
+.health-page .titled-pane > .content, .health-guide .titled-pane > .content { -fx-background-color:transparent; -fx-border-width:0; -fx-padding:0 2 16 2; }
+
+/* ---------- thin scroll bars ---------- */
+.health-page .scroll-bar, .health-guide .scroll-bar { -fx-background-color:transparent; -fx-pref-width:11; -fx-pref-height:11; -fx-padding:2; }
+.health-page .scroll-bar .track, .health-guide .scroll-bar .track { -fx-background-color:transparent; -fx-border-color:transparent; }
+.health-page .scroll-bar .thumb, .health-guide .scroll-bar .thumb { -fx-background-color:rgba(20,20,20,0.22); -fx-background-insets:0; -fx-background-radius:999; }
+.health-page .scroll-bar .thumb:hover, .health-guide .scroll-bar .thumb:hover { -fx-background-color:rgba(20,20,20,0.4); }
+.health-page .scroll-bar .increment-button, .health-page .scroll-bar .decrement-button, .health-guide .scroll-bar .increment-button, .health-guide .scroll-bar .decrement-button { -fx-padding:0; -fx-background-color:transparent; }
+.health-page .scroll-bar .increment-arrow, .health-page .scroll-bar .decrement-arrow, .health-guide .scroll-bar .increment-arrow, .health-guide .scroll-bar .decrement-arrow { -fx-shape:""; -fx-padding:0; }
+
+/* ---------- the measurement guide (a sheet) ---------- */
+.health-guide { -fx-background-color:#ffffff; -fx-padding:0; }
+.health-guide > .header-panel { -fx-background-color:#ffffff; -fx-padding:26 30 6 30; }
+.health-guide > .header-panel > .label { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:28px; -fx-text-fill:#141414; }
+.health-guide > .content { -fx-padding:8 16 0 16; }
+.health-guide .scroll-pane { -fx-background-color:#ffffff; -fx-padding:8 14 14 14; }
+.health-guide .scroll-pane > .viewport { -fx-background-color:#ffffff; }
+.health-guide > .button-bar > .container { -fx-padding:12 30 22 30; -fx-background-color:#ffffff; }
+.guide-step  { -fx-font-family:"Open Runde Semibold"; -fx-font-size:20px; -fx-line-spacing:4; }
+.timer-clock { -fx-font-family:"Open Runde"; -fx-font-weight:bold; -fx-font-size:40px; }
+.health-guide .progress-bar { -fx-pref-height:8; -fx-min-height:8; -fx-max-height:8; }
+.health-guide .progress-bar > .track { -fx-background-color:#e4e4e1; -fx-background-insets:0; -fx-background-radius:999; }
+.health-guide .progress-bar > .bar { -fx-background-color:linear-gradient(to right, #16c26b, #b8e62e); -fx-background-insets:0; -fx-background-radius:999; -fx-padding:4; }
+.health-guide .step-card .button { -fx-background-color:#ffffff; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.08), 6, 0, 0, 1); }
+.health-guide .step-card .button:hover { -fx-background-color:#ffffff; -fx-effect:dropshadow(gaussian, rgba(20,20,20,0.18), 10, 0, 0, 3); }
+.health-guide .step-card .primary, .health-guide .step-card .primary:hover { -fx-background-color:#161616; -fx-effect:null; }
+.health-guide .step-card .primary:hover { -fx-background-color:#333333; }
+.health-guide .step-card .scale-choice:selected { -fx-background-color:linear-gradient(to bottom right, #16c26b, #b8e62e); }
+
+/* ---------- the demo's toolbar ---------- */
+.health-toolbar { -fx-padding:12 24; -fx-spacing:10; -fx-background-color:#fbfbfa; -fx-border-color:transparent transparent #e4e4e1 transparent; -fx-font-size:14px; }
+.health-toolbar .label { -fx-text-fill:#6e6e72; }
+.health-toolbar .toolbar-title { -fx-font-family:"Open Runde Semibold"; -fx-text-fill:#141414; -fx-font-size:15px; }
+.health-toolbar .button { -fx-font-family:"Open Runde Semibold"; -fx-background-color:#f0f0ee; -fx-background-insets:0; -fx-background-radius:999; -fx-padding:8 16; -fx-text-fill:#141414; -fx-cursor:hand; }
+.health-toolbar .button:hover { -fx-background-color:#e8e8e5; }
+.health-toolbar .spinner .text-field { -fx-background-color:transparent; -fx-text-fill:#141414; -fx-font-family:"Open Runde Semibold"; }
+.health-toolbar .spinner .increment-arrow-button, .health-toolbar .spinner .decrement-arrow-button { -fx-background-color:transparent; }
+.health-toolbar .spinner .increment-arrow, .health-toolbar .spinner .decrement-arrow { -fx-background-color:#6e6e72; }

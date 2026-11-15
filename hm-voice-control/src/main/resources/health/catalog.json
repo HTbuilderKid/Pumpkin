@@ -1,0 +1,1957 @@
+{
+ "systems": [
+  {
+   "id": "brain",
+   "name": "Brain, sleep and mood",
+   "meshes": [
+    "brain"
+   ],
+   "spot": "brain",
+   "about": "Sleep and mood are the first things to slip under isolation, confinement and a shifted day-night cycle, and they drag everything else down with them.",
+   "short": "Brain"
+  },
+  {
+   "id": "heart",
+   "name": "Heart and circulation",
+   "meshes": [
+    "heart",
+    "vessels"
+   ],
+   "spot": "heart",
+   "about": "Without gravity, blood and fluid move towards the head and the heart works against less load. Heart rate and blood pressure show how the circulation is adapting.",
+   "short": "Heart"
+  },
+  {
+   "id": "lungs",
+   "name": "Lungs and oxygen",
+   "meshes": [
+    "lungs"
+   ],
+   "spot": "lungs",
+   "about": "A closed cabin can build up carbon dioxide and its air is all you have. Blood oxygen is the quick check.",
+   "short": "Lungs"
+  },
+  {
+   "id": "metabolic",
+   "name": "Blood sugar and energy",
+   "meshes": [
+    "pancreas",
+    "stomach"
+   ],
+   "spot": "pancreas",
+   "about": "Spaceflight changes how the body handles sugar. Diet, stress, poor sleep and less muscle use all push it.",
+   "short": "Blood sugar"
+  },
+  {
+   "id": "core",
+   "name": "Body temperature",
+   "meshes": [
+    "skin"
+   ],
+   "spot": "forehead",
+   "about": "Body heat is harder to shed without convection, and fever is the first sign of infection in a crew that cannot leave.",
+   "short": "Temperature"
+  },
+  {
+   "id": "fluids",
+   "name": "Kidneys, fluids and salts",
+   "meshes": [
+    "kidneys",
+    "bladder"
+   ],
+   "spot": "kidneys",
+   "about": "Fluid shifts and low water intake raise the risk of dehydration and kidney stones. The kidneys also keep the blood's salts in balance.",
+   "short": "Kidneys & fluids"
+  },
+  {
+   "id": "liver",
+   "name": "Liver",
+   "meshes": [
+    "liver"
+   ],
+   "spot": "liver",
+   "about": "The liver processes nutrients and medication. Its enzymes in the blood show strain.",
+   "short": "Liver"
+  },
+  {
+   "id": "bone",
+   "name": "Bones",
+   "meshes": [
+    "pelvis",
+    "spine",
+    "legs"
+   ],
+   "spot": "hip",
+   "about": "Weight-bearing bones lose about 1% to 1.5% of their mineral density per month in microgravity unless they are loaded by exercise.",
+   "short": "Bones"
+  },
+  {
+   "id": "muscle",
+   "name": "Muscle and body mass",
+   "meshes": [],
+   "spot": "thigh",
+   "about": "Muscles that no longer carry your weight shrink quickly. Body mass and exercise time track it.",
+   "short": "Muscle"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "hr",
+   "name": "Resting heart rate",
+   "short": "Heart rate",
+   "unit": "bpm",
+   "system": "heart",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 25,
+    "max": 220,
+    "step": 1,
+    "placeholder": "62"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 40,
+    "lowAct": 45,
+    "lowWatch": 50,
+    "highWatch": 101,
+    "highAct": 110,
+    "highUrgent": 130
+   },
+   "shift": {
+    "abs": 10
+   },
+   "okText": null,
+   "how": "Sit still for five minutes, strapped in or holding a handrail. Use the pulse oximeter or count the pulse at your wrist for 60 seconds. Measure at the same time each day, before exercise and caffeine.",
+   "why": "Resting heart rate rises with dehydration, infection, poor sleep, stress and deconditioning. A steady climb over days is an early warning.",
+   "hazards": [
+    "gravity",
+    "isolation"
+   ],
+   "sources": [
+    "Adult resting range 60-100 bpm (American Heart Association); trained adults are often lower, so the lower watch level here is 50"
+   ],
+   "advice": {
+    "high": [
+     "Re-measure after five minutes of complete rest.",
+     "Drink 250-500 mL of water and check your hydration reading.",
+     "Check your temperature: a fast pulse with fever suggests infection.",
+     "Skip caffeine and hard exercise until it settles."
+    ],
+    "low": [
+     "Re-measure. A low pulse in a fit person at rest is often normal.",
+     "Note any dizziness, fainting or chest discomfort; with any of these, treat this as urgent."
+    ],
+    "shift": [
+     "Your resting pulse has moved away from your own normal. Look at sleep, hydration and temperature over the same days."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "bp_sys",
+   "name": "Blood pressure, upper (systolic)",
+   "short": "Pressure, upper",
+   "unit": "mmHg",
+   "system": "heart",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 60,
+    "max": 260,
+    "step": 1,
+    "placeholder": "118"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 80,
+    "lowAct": 90,
+    "lowWatch": 95,
+    "highWatch": 120,
+    "highAct": 140,
+    "highUrgent": 180
+   },
+   "shift": {
+    "abs": 15
+   },
+   "okText": null,
+   "how": "Rest for five minutes. Put the cuff on your bare upper arm at heart level, keep still and silent, and take two readings one minute apart. Enter the second.",
+   "why": "Fluid moves towards the head in microgravity and the circulation resets. Pressure that climbs, or falls with dizziness, needs attention before a spacewalk or landing.",
+   "hazards": [
+    "gravity",
+    "hostile"
+   ],
+   "sources": [
+    "American Heart Association categories: normal below 120/80, elevated 120-129, stage 1 130-139 or 80-89, stage 2 from 140 or 90, crisis above 180 and/or 120"
+   ],
+   "advice": {
+    "high": [
+     "Re-measure after five quiet minutes, cuff at heart level.",
+     "Cut back on salty food today and drink water.",
+     "Note headache, vision change, chest pain or shortness of breath; any of these with a high reading is urgent."
+    ],
+    "low": [
+     "Re-measure. Drink water and take in some salt with food.",
+     "Move slowly when changing posture or starting exercise.",
+     "Dizziness or fainting with a low reading should be reported."
+    ],
+    "shift": [
+     "Your pressure has moved away from your own normal. Compare with body mass and hydration: both follow fluid balance."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "bp_dia",
+   "name": "Blood pressure, lower (diastolic)",
+   "short": "Pressure, lower",
+   "unit": "mmHg",
+   "system": "heart",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 30,
+    "max": 160,
+    "step": 1,
+    "placeholder": "76"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 45,
+    "lowAct": 55,
+    "lowWatch": 60,
+    "highWatch": 80,
+    "highAct": 90,
+    "highUrgent": 120
+   },
+   "shift": {
+    "abs": 10
+   },
+   "okText": null,
+   "how": "This is the second number from the same cuff reading.",
+   "why": "The lower number is the pressure between heartbeats. It is read together with the upper number.",
+   "hazards": [
+    "gravity",
+    "hostile"
+   ],
+   "sources": [
+    "American Heart Association categories (see upper number)"
+   ],
+   "advice": {
+    "high": [
+     "Re-measure after five quiet minutes.",
+     "Cut back on salty food today and drink water."
+    ],
+    "low": [
+     "Re-measure. Drink water and move slowly when changing posture."
+    ],
+    "shift": [
+     "Your lower pressure has moved away from your own normal."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "glucose",
+   "name": "Blood sugar, fasting",
+   "short": "Blood sugar",
+   "unit": "mg/dL",
+   "system": "metabolic",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 20,
+    "max": 600,
+    "step": 1,
+    "placeholder": "88"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 54,
+    "lowAct": 70,
+    "lowWatch": 70,
+    "highWatch": 100,
+    "highAct": 126,
+    "highUrgent": 300
+   },
+   "shift": {
+    "pct": 15
+   },
+   "okText": null,
+   "how": "Measure before breakfast, at least eight hours after eating. Wash and dry your hands, prick the side of a fingertip, wipe away the first drop and apply the second to the strip. In microgravity the drop stays on the finger: bring the strip to the drop.",
+   "why": "Blood sugar control weakens in spaceflight. In the Inspiration4 crew it rose 14% to 44% above each person's own pre-flight level after a three-day flight.",
+   "hazards": [
+    "gravity",
+    "isolation",
+    "hostile"
+   ],
+   "sources": [
+    "American Diabetes Association: fasting normal below 100 mg/dL, 100-125 raised, 126 or more high; low below 70, clinically significant low below 54"
+   ],
+   "advice": {
+    "high": [
+     "Confirm it was a fasting reading; re-measure tomorrow before eating.",
+     "Favour protein and fibre over sugary items for the next meals.",
+     "Do your exercise session: working muscle takes up sugar.",
+     "Protect tonight's sleep; short sleep raises morning sugar."
+    ],
+    "low": [
+     "Re-measure now with a new strip and clean, dry hands.",
+     "If it is still low, or you feel shaky, sweaty or confused, take 15 g of fast sugar (juice or glucose tablets) and re-measure after 15 minutes.",
+     "Do not exercise or start a critical task until it is back above 70."
+    ],
+    "shift": [
+     "Your fasting sugar has moved away from your own normal even though it is inside the textbook range. This is the pattern seen after spaceflight; keep measuring daily."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "temp",
+   "name": "Body temperature",
+   "short": "Temperature",
+   "unit": "°C",
+   "system": "core",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 30,
+    "max": 44,
+    "step": 0.1,
+    "placeholder": "36.6"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 35.0,
+    "lowAct": 35.5,
+    "lowWatch": 36.0,
+    "highWatch": 37.3,
+    "highAct": 38.0,
+    "highUrgent": 39.5
+   },
+   "shift": {
+    "abs": 0.6
+   },
+   "okText": null,
+   "how": "Use the same thermometer and the same site every time (ear or under the tongue). Wait 30 minutes after exercise, food or drink.",
+   "why": "Infection in a sealed cabin spreads to the whole crew, and the immune system is weaker in flight. Fever is the earliest objective sign.",
+   "hazards": [
+    "hostile",
+    "radiation"
+   ],
+   "sources": [
+    "Fever commonly defined as 38.0 °C or above; normal adult range roughly 36.1-37.2 °C"
+   ],
+   "advice": {
+    "high": [
+     "Re-measure in 30 minutes at rest.",
+     "Rest, drink fluids and check the cabin temperature and your clothing.",
+     "Note other symptoms: cough, sore throat, pain, rash, stomach upset.",
+     "Keep your distance from crewmates and wear a mask until it is clear whether this is an infection."
+    ],
+    "low": [
+     "Re-measure. Warm up with clothing and a warm drink, then check again."
+    ],
+    "shift": [
+     "Your temperature has moved away from your own normal. Watch it over the next readings."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "spo2",
+   "name": "Blood oxygen",
+   "short": "Blood oxygen",
+   "unit": "%",
+   "system": "lungs",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 60,
+    "max": 100,
+    "step": 1,
+    "placeholder": "98"
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": 88,
+    "lowAct": 91,
+    "lowWatch": 95,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "abs": 3
+   },
+   "okText": null,
+   "how": "Warm your hand, clip the pulse oximeter on a finger without nail polish, keep still and read it after the number has been steady for ten seconds.",
+   "why": "Oxygen saturation falls when the cabin air is off (low oxygen or high carbon dioxide) or the lungs are affected. It is the fastest check you have.",
+   "hazards": [
+    "hostile"
+   ],
+   "sources": [
+    "Normal 95-100%; below about 92% generally needs assessment; values from standard pulse-oximetry guidance"
+   ],
+   "advice": {
+    "low": [
+     "Re-measure on a warm finger, sitting still.",
+     "Check the cabin's oxygen and carbon dioxide readings.",
+     "Ask a crewmate to measure theirs: if several are low, it is the air, not you.",
+     "Shortness of breath, blue lips or confusion with a low reading is urgent."
+    ],
+    "shift": [
+     "Your oxygen level has dropped from your own normal. Check the cabin air readings."
+    ]
+   },
+   "goodDirection": "high"
+  },
+  {
+   "id": "sleep",
+   "name": "Sleep last night",
+   "short": "Sleep",
+   "unit": "hours",
+   "system": "brain",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 0,
+    "max": 16,
+    "step": 0.25,
+    "placeholder": "7.5"
+   },
+   "every": 1,
+   "window": 3,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": 5.0,
+    "lowWatch": 7.0,
+    "highWatch": 9.5,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "abs": 1.0
+   },
+   "okText": null,
+   "how": "Enter the hours you actually slept, not the time in your sleep station. If you wear a tracker, use its number.",
+   "why": "Crews in orbit see many sunrises a day and average about six hours of sleep. Short sleep degrades attention, mood, immunity and blood sugar within days.",
+   "hazards": [
+    "isolation",
+    "hostile",
+    "distance"
+   ],
+   "sources": [
+    "Adults need 7-9 hours (American Academy of Sleep Medicine and Sleep Research Society consensus); NASA schedules 8.5 hours for crew sleep"
+   ],
+   "advice": {
+    "low": [
+     "Keep a fixed sleep and wake time, including rest days.",
+     "Dim the lights and screens for the last hour; use bright light in the first hour after waking.",
+     "No caffeine in the six hours before sleep.",
+     "Use earplugs and an eye mask, and check the airflow and temperature of your sleep station.",
+     "Avoid critical or hazardous tasks alone after a short night."
+    ],
+    "high": [
+     "Long sleep can follow a sleep debt or signal illness or low mood. Check your temperature and mood entries."
+    ],
+    "shift": [
+     "You are sleeping less than your own normal. Protect the next two nights before it builds into a debt."
+    ]
+   },
+   "goodDirection": "high"
+  },
+  {
+   "id": "mood",
+   "name": "Mood today",
+   "short": "Mood",
+   "unit": "/ 5",
+   "system": "brain",
+   "kind": "daily",
+   "input": {
+    "type": "scale",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "labels": [
+     "Very low",
+     "Low",
+     "Okay",
+     "Good",
+     "Very good"
+    ]
+   },
+   "every": 1,
+   "window": 3,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": 1.5,
+    "lowWatch": 2.5,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "abs": 1.0
+   },
+   "okText": null,
+   "how": "Pick the number that fits how you have felt overall today. There is no right answer; the point is the trend.",
+   "why": "Isolation, confinement, workload and distance from home wear mood down gradually. People often notice it last in themselves, which is why it is logged.",
+   "hazards": [
+    "isolation",
+    "distance"
+   ],
+   "sources": [
+    "Self-rating on a 1-5 scale; no clinical cut-off, the trend against your own normal is what matters"
+   ],
+   "advice": {
+    "low": [
+     "Tell one crewmate how you are doing today.",
+     "Use your next private family or psychological conference; do not skip it.",
+     "Do your exercise session and get light exposure early in your day.",
+     "Take the scheduled rest time, and do one thing that is not work.",
+     "If your mood stays low for several days, talk to the crew medical officer. Thoughts of harming yourself are urgent."
+    ],
+    "shift": [
+     "Your mood has been below your own normal. A few low days are expected; a sustained slide is worth acting on early."
+    ]
+   },
+   "goodDirection": "high"
+  },
+  {
+   "id": "hydration",
+   "name": "Hydration (urine colour)",
+   "short": "Hydration",
+   "unit": "/ 8",
+   "system": "fluids",
+   "kind": "daily",
+   "input": {
+    "type": "scale",
+    "min": 1,
+    "max": 8,
+    "step": 1,
+    "labels": [
+     "Clear",
+     "Pale straw",
+     "Straw",
+     "Yellow",
+     "Dark yellow",
+     "Amber",
+     "Honey",
+     "Brown"
+    ]
+   },
+   "every": 1,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": 3.5,
+    "highAct": 5.5,
+    "highUrgent": null
+   },
+   "shift": {
+    "abs": 1.5
+   },
+   "okText": null,
+   "how": "Compare the colour of your urine with the eight-step chart: 1 is nearly clear, 8 is brown. Use the first collection after waking.",
+   "why": "The feeling of thirst is blunted in microgravity and fluid shifts hide dehydration. Concentrated urine also raises the risk of kidney stones, which is higher in flight.",
+   "hazards": [
+    "gravity",
+    "hostile"
+   ],
+   "sources": [
+    "Eight-level urine colour chart (Armstrong et al.): 1-3 hydrated, 4-5 mildly dehydrated, 6-8 dehydrated"
+   ],
+   "advice": {
+    "high": [
+     "Drink 500 mL of water over the next hour, then steadily through the day.",
+     "Aim for pale straw colour by the afternoon.",
+     "Go easy on salty food and caffeine today.",
+     "Report flank pain, blood in the urine or pain passing urine: these suggest a kidney stone."
+    ],
+    "shift": [
+     "Your urine is darker than your own normal. Raise your water intake today."
+    ]
+   },
+   "goodDirection": "low"
+  },
+  {
+   "id": "exercise",
+   "name": "Exercise yesterday",
+   "short": "Exercise",
+   "unit": "minutes",
+   "system": "bone",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 0,
+    "max": 360,
+    "step": 5,
+    "placeholder": "120"
+   },
+   "every": 1,
+   "window": 3,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": 45,
+    "lowWatch": 90,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 30
+   },
+   "okText": null,
+   "how": "Add up yesterday's resistance and aerobic exercise time, not counting set-up.",
+   "why": "Exercise is the main defence against bone and muscle loss. Station crews are scheduled for about two hours a day, including loaded resistance work.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "NASA: station crews exercise about two hours per day; bone mineral density falls roughly 1-1.5% per month in weight-bearing bones without countermeasures"
+   ],
+   "advice": {
+    "low": [
+     "Book today's session now, resistance exercise first: loaded squats, deadlifts and heel raises protect the hip and spine.",
+     "If time is short, keep the resistance work and cut the aerobic part.",
+     "If you skipped because of pain, fatigue or equipment trouble, report which."
+    ],
+    "shift": [
+     "You are exercising less than your own normal. Bone and muscle loss follow within weeks."
+    ]
+   },
+   "goodDirection": "high"
+  },
+  {
+   "id": "mass",
+   "name": "Body mass",
+   "short": "Body mass",
+   "unit": "kg",
+   "system": "muscle",
+   "kind": "daily",
+   "input": {
+    "type": "number",
+    "min": 30,
+    "max": 200,
+    "step": 0.1,
+    "placeholder": "72.0"
+   },
+   "every": 7,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 3,
+    "actPct": 5
+   },
+   "okText": null,
+   "how": "Use the body-mass device at the same time of day, before eating. On a planetary surface, use the scale in the same clothing.",
+   "why": "Unplanned loss of body mass means you are not eating enough or are losing muscle. A fall of 5% from your own baseline is clinically significant.",
+   "hazards": [
+    "gravity",
+    "hostile"
+   ],
+   "sources": [
+    "Unintentional loss of 5% or more of body mass is treated as clinically significant in standard nutritional assessment"
+   ],
+   "advice": {
+    "low": [
+     "Log what you actually eat for three days and compare it with your planned intake.",
+     "Add an energy-dense snack between meals and do not skip meals for work.",
+     "Keep the resistance exercise going: under-eating plus unloading costs muscle fast."
+    ],
+    "high": [
+     "Re-measure. A fast rise is usually fluid; check blood pressure and hydration."
+    ],
+    "shift": [
+     "Your body mass has moved away from your baseline."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_glucose",
+   "name": "Glucose (lab)",
+   "short": "Glucose (lab)",
+   "sourceName": "GLUCOSE",
+   "unit": "mg/dL",
+   "system": "metabolic",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 15
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Sugar in the blood at the time of the draw.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_bun",
+   "name": "Urea nitrogen",
+   "short": "Urea nitrogen",
+   "sourceName": "UREA NITROGEN (BUN)",
+   "unit": "mg/dL",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 35
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "A waste product cleared by the kidneys; rises with dehydration and high protein breakdown.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_creatinine",
+   "name": "Creatinine",
+   "short": "Creatinine",
+   "sourceName": "CREATININE",
+   "unit": "mg/dL",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 15
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "A muscle waste product cleared by the kidneys; the standard marker of kidney filtering.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_egfr",
+   "name": "Kidney filtration rate (eGFR)",
+   "short": "Kidney filtration rate (eGFR)",
+   "sourceName": "eGFR NON-AFR. AMERICAN",
+   "unit": "mL/min/1.73m2",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 15
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "An estimate of how much blood the kidneys filter each minute, calculated from creatinine.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": "high"
+  },
+  {
+   "id": "lab_bun_creat",
+   "name": "Urea / creatinine ratio",
+   "short": "Urea / creatinine ratio",
+   "sourceName": "BUN/CREATININE RATIO",
+   "unit": "",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 35
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "A high ratio points to dehydration rather than kidney damage.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_sodium",
+   "name": "Sodium",
+   "short": "Sodium",
+   "sourceName": "SODIUM",
+   "unit": "mmol/L",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 3
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "The main salt of the blood; tracks water balance.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_potassium",
+   "name": "Potassium",
+   "short": "Potassium",
+   "sourceName": "POTASSIUM",
+   "unit": "mmol/L",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 13
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Controls heart rhythm and muscle function. A high value from one sample is often a damaged sample.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_chloride",
+   "name": "Chloride",
+   "short": "Chloride",
+   "sourceName": "CHLORIDE",
+   "unit": "mmol/L",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 4
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Moves with sodium; part of the acid-base balance.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_co2",
+   "name": "Bicarbonate (CO2)",
+   "short": "Bicarbonate (CO2)",
+   "sourceName": "CARBON DIOXIDE",
+   "unit": "mmol/L",
+   "system": "fluids",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 14
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "The blood's acid buffer.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_calcium",
+   "name": "Calcium",
+   "short": "Calcium",
+   "sourceName": "CALCIUM",
+   "unit": "mg/dL",
+   "system": "bone",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 6
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Released from bone as it thins; also depends on albumin.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_protein",
+   "name": "Total protein",
+   "short": "Total protein",
+   "sourceName": "PROTEIN; TOTAL",
+   "unit": "g/dL",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 8
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Albumin plus globulins.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_albumin",
+   "name": "Albumin",
+   "short": "Albumin",
+   "sourceName": "ALBUMIN",
+   "unit": "g/dL",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 9
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "The main blood protein, made by the liver; falls with poor nutrition and fluid shifts.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_globulin",
+   "name": "Globulin",
+   "short": "Globulin",
+   "sourceName": "GLOBULIN",
+   "unit": "g/dL",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 12
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Immune and transport proteins.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_ag",
+   "name": "Albumin / globulin ratio",
+   "short": "Albumin / globulin ratio",
+   "sourceName": "ALBUMIN/GLOBULIN RATIO",
+   "unit": "",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 12
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "Balance between the two protein groups.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_bilirubin",
+   "name": "Bilirubin",
+   "short": "Bilirubin",
+   "sourceName": "BILIRUBIN; TOTAL",
+   "unit": "mg/dL",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 60
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "A breakdown product of red blood cells, cleared by the liver.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_alp",
+   "name": "Alkaline phosphatase",
+   "short": "Alkaline phosphatase",
+   "sourceName": "ALKALINE PHOSPHATASE",
+   "unit": "U/L",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 18
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "An enzyme from liver and bone; rises with bone turnover.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_ast",
+   "name": "AST",
+   "short": "AST",
+   "sourceName": "AST",
+   "unit": "U/L",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 35
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "An enzyme released by liver and muscle; rises after hard exercise as well as liver strain.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  },
+  {
+   "id": "lab_alt",
+   "name": "ALT",
+   "short": "ALT",
+   "sourceName": "ALT",
+   "unit": "U/L",
+   "system": "liver",
+   "kind": "lab",
+   "every": null,
+   "window": 1,
+   "bands": {
+    "lowUrgent": null,
+    "lowAct": null,
+    "lowWatch": null,
+    "highWatch": null,
+    "highAct": null,
+    "highUrgent": null
+   },
+   "shift": {
+    "pct": 55
+   },
+   "how": "Measured from a blood sample on lab day. Enter the value from the analyser print-out.",
+   "why": "The more liver-specific enzyme.",
+   "hazards": [
+    "gravity"
+   ],
+   "sources": [
+    "Reference range as reported by the laboratory with each result (Quest Diagnostics, NASA OSD-575)",
+    "Size of a meaningful change: approximate reference change value for this test, from published within-person biological variation"
+   ],
+   "advice": {
+    "high": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "low": [
+     "One reading outside the range is a prompt to repeat the test, not a diagnosis.",
+     "Check whether the rest of the crew shows the same change in the same draw: if so, suspect how the sample was handled."
+    ],
+    "shift": [
+     "This value has moved away from your own baseline while staying inside the laboratory range. Compare it with the same draw for the rest of the crew: a shift everyone shares is likely an effect of the flight."
+    ]
+   },
+   "goodDirection": null
+  }
+ ],
+ "hazards": [
+  {
+   "id": "radiation",
+   "name": "Space radiation",
+   "text": "Outside Earth's magnetic shield the dose is many times higher. It raises long-term cancer risk and can affect the heart, the brain and the immune system.",
+   "watch": [
+    "temp"
+   ]
+  },
+  {
+   "id": "isolation",
+   "name": "Isolation and confinement",
+   "text": "A small crew in a small space for months: sleep, mood and performance erode gradually.",
+   "watch": [
+    "sleep",
+    "mood",
+    "hr"
+   ]
+  },
+  {
+   "id": "distance",
+   "name": "Distance from Earth",
+   "text": "No resupply, no evacuation, and a delay on every question to the ground. The crew has to spot and handle problems itself.",
+   "watch": [
+    "mood",
+    "sleep"
+   ]
+  },
+  {
+   "id": "gravity",
+   "name": "Gravity fields",
+   "text": "Weightlessness, then partial gravity, then Earth again. Bone, muscle, the heart and fluid balance all adapt each time.",
+   "watch": [
+    "exercise",
+    "mass",
+    "hr",
+    "bp_sys",
+    "glucose",
+    "hydration"
+   ]
+  },
+  {
+   "id": "hostile",
+   "name": "Hostile, closed environment",
+   "text": "Recycled air and water, shared microbes, noise and constant artificial light.",
+   "watch": [
+    "spo2",
+    "temp",
+    "hydration",
+    "sleep"
+   ]
+  }
+ ],
+ "environments": [
+  {
+   "id": "station",
+   "name": "Space station, low Earth orbit",
+   "gravity": "Weightless",
+   "delay": "under a second",
+   "delayNote": "You can talk to the flight surgeons in real time."
+  },
+  {
+   "id": "transit",
+   "name": "Deep-space transit to Mars",
+   "gravity": "Weightless",
+   "delay": "4 to 22 minutes each way",
+   "delayNote": "A question and its answer can take up to 44 minutes. Act on the guidance here first, then report."
+  },
+  {
+   "id": "lunar",
+   "name": "Lunar surface base",
+   "gravity": "One-sixth of Earth's",
+   "delay": "about 1.3 seconds each way",
+   "delayNote": "Conversation with the ground is possible with a short lag."
+  },
+  {
+   "id": "rover",
+   "name": "Surface rover, away from base",
+   "gravity": "Partial gravity",
+   "delay": "relayed through the base",
+   "delayNote": "Help is hours away. Anything at the 'tell the medical officer' level means heading back."
+  }
+ ],
+ "levels": [
+  {
+   "id": 0,
+   "name": "In your normal range",
+   "who": "Nothing to do"
+  },
+  {
+   "id": 1,
+   "name": "Watch",
+   "who": "Handle it yourself"
+  },
+  {
+   "id": 2,
+   "name": "Act",
+   "who": "Tell the crew medical officer"
+  },
+  {
+   "id": 3,
+   "name": "Urgent",
+   "who": "Contact the flight surgeons now"
+  }
+ ],
+ "equipment": [
+  {
+   "id": "oximeter",
+   "name": "Pulse oximeter",
+   "measures": [
+    "hr",
+    "spo2"
+   ],
+   "what": "A fingertip clip that reads blood oxygen and pulse with light.",
+   "kit": [
+    "Fingertip pulse oximeter",
+    "Alcohol wipe"
+   ],
+   "steps": [
+    {
+     "t": "Warm the hand you will use. Remove nail polish or anything covering the nail on that finger."
+    },
+    {
+     "t": "Anchor yourself and rest completely still. Start the timer and wait until it ends before you measure.",
+     "timer": 300
+    },
+    {
+     "t": "Open the clip and slide your index or middle finger in as far as it goes, nail facing the display side."
+    },
+    {
+     "t": "Rest the hand at chest height and keep it still. Do not talk. Let the numbers settle.",
+     "timer": 30
+    },
+    {
+     "t": "Read both numbers once they have been steady for ten seconds: SpO2 is your blood oxygen in %, PR or the heart symbol is your pulse in beats per minute."
+    }
+   ],
+   "space": [
+    "Hold yourself with foot restraints, not with the hand being measured: a gripping hand gives a poor signal.",
+    "Hands are often cool in the cabin airflow. Warm the finger first; a cold finger reads low."
+   ],
+   "mistakes": [
+    "Moving or talking during the reading",
+    "Cold fingers or nail polish",
+    "Strong light shining into the clip",
+    "Reading the number before it has settled"
+   ],
+   "after": "Wipe the inside of the clip with an alcohol wipe, let it dry, and stow it."
+  },
+  {
+   "id": "bp",
+   "name": "Blood pressure monitor",
+   "measures": [
+    "bp_sys",
+    "bp_dia"
+   ],
+   "what": "An automatic upper-arm cuff. It gives two numbers: upper (systolic) and lower (diastolic).",
+   "kit": [
+    "Automatic monitor with an upper-arm cuff of the right size for your arm"
+   ],
+   "steps": [
+    {
+     "t": "Before you start: no exercise, caffeine or large meal in the last 30 minutes, and use the toilet first."
+    },
+    {
+     "t": "Restrain yourself comfortably with your back supported. Start the timer and rest quietly until it ends.",
+     "timer": 300
+    },
+    {
+     "t": "Wrap the cuff on your bare upper arm, lower edge about two finger-widths above the elbow crease, with the tube or artery mark on the inside of the arm. It should be snug: two fingers fit under it, no more."
+    },
+    {
+     "t": "Support the arm so the cuff is level with your heart, palm up and relaxed."
+    },
+    {
+     "t": "Press Start. Stay still and silent until the cuff has fully deflated. Note the result."
+    },
+    {
+     "t": "Leave the cuff on, start the timer, and wait.",
+     "timer": 60
+    },
+    {
+     "t": "Take a second reading the same way. The second reading is the one you record."
+    }
+   ],
+   "space": [
+    "Your arm floats. Rest it against your body or under a strap so the muscle is relaxed and the cuff stays at heart level.",
+    "Fluid shifts towards the head in the first days of flight can change your readings. That is why your own baseline matters more than a single number."
+   ],
+   "mistakes": [
+    "Cuff over clothing, or the wrong cuff size",
+    "Talking, moving or tensing the arm",
+    "Arm above or below heart level",
+    "Measuring straight after exercise or caffeine"
+   ],
+   "after": "Squeeze the air out of the cuff, roll it loosely and stow it with the monitor."
+  },
+  {
+   "id": "glucometer",
+   "name": "Blood glucose meter",
+   "measures": [
+    "glucose"
+   ],
+   "what": "A hand-held meter that reads blood sugar from one drop of blood on a test strip.",
+   "kit": [
+    "Glucose meter",
+    "Test strip (check the expiry date)",
+    "Lancing device with a new lancet",
+    "Gauze pad",
+    "Sharps container"
+   ],
+   "steps": [
+    {
+     "t": "Measure before breakfast, at least eight hours after you last ate or drank anything but water."
+    },
+    {
+     "t": "Clean the fingertip and dry it completely. Sugar, soap or alcohol left on the skin changes the result."
+    },
+    {
+     "t": "Insert a new test strip. The meter switches on and shows it is ready for blood."
+    },
+    {
+     "t": "Press the lancing device against the side of a fingertip, not the pad, and fire it."
+    },
+    {
+     "t": "Wipe away the first drop with gauze. Let a second round drop form without squeezing hard."
+    },
+    {
+     "t": "Touch the edge of the strip to the drop and hold it there until the meter beeps or starts counting down."
+    },
+    {
+     "t": "Read the result in mg/dL. Press gauze on the finger until it stops bleeding."
+    }
+   ],
+   "space": [
+    "The drop does not fall: it clings to your finger as a bead. Bring the strip to the drop.",
+    "Keep the gauze in your other hand before you prick, so no blood drifts free in the cabin.",
+    "Cap and contain the used lancet at once. Nothing sharp may float."
+   ],
+   "mistakes": [
+    "Wet or unwashed hands",
+    "Squeezing the finger hard, which dilutes the blood",
+    "A drop too small to fill the strip",
+    "Expired or damp strips"
+   ],
+   "after": "Put the lancet in the sharps container and the strip and gauze in the biohazard waste. Wipe the meter."
+  },
+  {
+   "id": "thermometer",
+   "name": "Ear thermometer",
+   "measures": [
+    "temp"
+   ],
+   "what": "An infrared thermometer that reads body temperature from the eardrum in about two seconds.",
+   "kit": [
+    "Infrared ear thermometer",
+    "New probe cover"
+   ],
+   "steps": [
+    {
+     "t": "Wait 30 minutes after exercise, a hot or cold drink, or wearing a headset over that ear."
+    },
+    {
+     "t": "Fit a new probe cover until it clicks."
+    },
+    {
+     "t": "With your free hand, pull the top of the ear gently up and back to straighten the ear canal."
+    },
+    {
+     "t": "Insert the probe snugly so it seals the canal, pointing towards the opposite temple."
+    },
+    {
+     "t": "Press the button and hold still until it beeps. Read the temperature in °C."
+    }
+   ],
+   "space": [
+    "Use the same ear every time. The two ears can differ by a few tenths of a degree, and it is the change from your own normal that counts.",
+    "Body temperature runs slightly higher in flight, because heat does not rise off the skin without gravity. Compare with your own in-flight readings."
+   ],
+   "mistakes": [
+    "A loose fit that lets cabin air in",
+    "Switching between ears",
+    "Earwax blocking the canal",
+    "Measuring straight after exercise"
+   ],
+   "after": "Eject the probe cover into the waste and stow the thermometer in its case."
+  },
+  {
+   "id": "urinechart",
+   "name": "Urine colour chart",
+   "measures": [
+    "hydration"
+   ],
+   "what": "An eight-step colour scale, from 1 (nearly clear) to 8 (brown), that shows how well hydrated you are.",
+   "kit": [
+    "Clear urine collection bag or container",
+    "Printed eight-step colour chart",
+    "White light"
+   ],
+   "steps": [
+    {
+     "t": "Use your first collection after waking: it is the most concentrated of the day and the most comparable from day to day."
+    },
+    {
+     "t": "Collect a sample in the clear bag or container."
+    },
+    {
+     "t": "Hold it next to the chart under white light, against a white background."
+    },
+    {
+     "t": "Pick the step that matches most closely. Between two steps, choose the darker one."
+    },
+    {
+     "t": "Record the number, from 1 to 8."
+    }
+   ],
+   "space": [
+    "You feel less thirsty in weightlessness even when you need water, so do not wait for thirst.",
+    "Dehydration and bone loss together raise the risk of kidney stones. Staying at 1 to 3 on the chart is one of the simplest protections."
+   ],
+   "mistakes": [
+    "Judging the colour under coloured or dim light",
+    "Using a later sample on some days and the first on others",
+    "Forgetting that B vitamins turn urine bright yellow and beetroot turns it pink: note it and judge by darkness, not hue"
+   ],
+   "after": "Dispose of the sample through the waste system as usual and clean your hands."
+  },
+  {
+   "id": "massdevice",
+   "name": "Body mass measurement device",
+   "measures": [
+    "mass"
+   ],
+   "what": "In weightlessness a scale reads nothing. This device pushes or pulls you with a known force and works out your mass from how fast you accelerate.",
+   "kit": [
+    "Body mass measurement device",
+    "Its calibration mass, if your procedure calls for one"
+   ],
+   "steps": [
+    {
+     "t": "Measure at the same point in your day each time, before eating and after using the toilet, in light clothing with empty pockets."
+    },
+    {
+     "t": "Unstow and lock the device in place. Run its zero or calibration check as its own procedure describes."
+    },
+    {
+     "t": "Mount it: wrap your legs around the support, rest your chin or chest on the pad, and grip the handles."
+    },
+    {
+     "t": "Make your whole body rigid, hold your breath, and release the mechanism. Stay rigid until the movement stops."
+    },
+    {
+     "t": "Repeat for the number of runs the device asks for, usually three to five. It averages them."
+    },
+    {
+     "t": "Read the averaged body mass in kg."
+    }
+   ],
+   "space": [
+    "Any loose movement, including breathing, adds error. Stiff and still is what makes the reading repeatable.",
+    "On the Moon or Mars use the surface scale set to show mass. A normal scale there would show a fraction of your Earth weight."
+   ],
+   "mistakes": [
+    "A relaxed or shifting posture",
+    "Different clothing or pocket contents from one week to the next",
+    "Measuring after a meal one week and before it the next"
+   ],
+   "after": "Lock the mechanism, wipe the pads and stow the device."
+  },
+  {
+   "id": "sleeptracker",
+   "name": "Wrist sleep tracker",
+   "measures": [
+    "sleep"
+   ],
+   "what": "A watch-like motion sensor worn on the wrist. It works out when you were asleep from how much you moved.",
+   "kit": [
+    "Wrist tracker, charged",
+    "Sleep log, as a backup"
+   ],
+   "steps": [
+    {
+     "t": "Wear the tracker on your non-dominant wrist, snug enough that it does not slide."
+    },
+    {
+     "t": "When you settle to sleep, press its event button, or note the time."
+    },
+    {
+     "t": "Keep it on all night. On waking, press the event button again."
+    },
+    {
+     "t": "Sync the tracker and read last night's total sleep time, not the time spent in your sleep station."
+    },
+    {
+     "t": "No tracker? Estimate: lights-out to wake-up, minus the time it took to fall asleep and any time awake in the night."
+    }
+   ],
+   "space": [
+    "Your arms float while you sleep, so the tracker sees more movement than on Earth and can under-count. Compare with your own in-flight nights.",
+    "There is no natural night. Keep lights-out and wake-up at fixed times so your readings mean the same thing each day."
+   ],
+   "mistakes": [
+    "Entering time in the sleep station instead of time asleep",
+    "Taking the tracker off to charge at night",
+    "Forgetting naps: add them only if your procedure says so"
+   ],
+   "after": "Charge the tracker during a waking period so it is ready for the night."
+  },
+  {
+   "id": "resistance",
+   "name": "Resistance exercise device",
+   "measures": [
+    "exercise"
+   ],
+   "what": "A machine that provides load without weight, so squats, deadlifts and heel raises can stress your bones and muscles as they would on Earth.",
+   "kit": [
+    "Resistance exercise device",
+    "Your prescribed session plan",
+    "Towel"
+   ],
+   "steps": [
+    {
+     "t": "Inspect the device before loading it: cables, bar or handles, and foot plate. Do not use it if anything looks worn or loose; report it."
+    },
+    {
+     "t": "Warm up for five to ten minutes with light aerobic exercise or unloaded movements.",
+     "timer": 300
+    },
+    {
+     "t": "Set the load from your session plan. If you have missed sessions, start lower than last time."
+    },
+    {
+     "t": "Take your position: feet flat on the plate, bar or harness seated on the shoulders, back straight."
+    },
+    {
+     "t": "Do each set under control: about two seconds down, two seconds up, no bouncing. Stop if you feel sharp pain."
+    },
+    {
+     "t": "Rest between sets.",
+     "timer": 90
+    },
+    {
+     "t": "When you finish, add up the minutes of resistance and aerobic exercise, not counting set-up. That total is what you record tomorrow as “exercise yesterday”."
+    }
+   ],
+   "space": [
+    "Squats, deadlifts and heel raises load the hip and spine, where bone is lost fastest. If time is short, keep these and drop the rest.",
+    "Sweat does not drip, it pools on the skin. Towel off during rests so it does not float free."
+   ],
+   "mistakes": [
+    "Skipping the inspection",
+    "Raising the load too fast after a break",
+    "Fast, bouncing repetitions",
+    "Counting set-up and rest as exercise time"
+   ],
+   "after": "Return the load to zero, wipe down the contact surfaces and stow the bar or harness."
+  }
+ ],
+ "equipmentNote": "These are general instructions for standard devices. Where your mission's own procedure for the hardware on board says something different, follow the procedure."
+}

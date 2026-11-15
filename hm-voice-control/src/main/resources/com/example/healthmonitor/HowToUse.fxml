@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="640.0" prefWidth="500.0" style="-fx-background-color: #0b1a4a;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+
+    <top>
+        <HBox alignment="CENTER_LEFT">
+            <padding>
+                <Insets left="16.0" top="16.0" />
+            </padding>
+            <Button fx:id="backButton" prefHeight="36.0" prefWidth="90.0" style="-fx-cursor: hand; -fx-background-color: #9ea8fd;" text="← Back" />
+        </HBox>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" spacing="12.0">
+            <padding>
+                <Insets bottom="30.0" left="30.0" right="30.0" top="0.0" />
+            </padding>
+
+            <Label text="Test a vital" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="36.0" />
+            </font></Label>
+
+            <Label text="Pick a vital to see how it works" textFill="WHITE" />
+
+            <Region prefHeight="12.0" />
+
+            <Button fx:id="heartRate_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Heart Rate" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="bloodPressure_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Blood Pressure" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="sleep_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Sleep" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="bloodOxygen_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Blood Oxygen" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="bloodSugar_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Blood Sugar" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="urineColor_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Urine Color" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="bodyTemp_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Body Temperature" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+
+            <Button fx:id="strength_button" prefHeight="44.0" prefWidth="260.0" style="-fx-cursor: hand; -fx-background-radius: 7; -fx-background-color: #14286b; -fx-border-color: #9ea8fd; -fx-border-radius: 7;" text="Strength" textFill="WHITE">
+            <font>
+               <Font name="Ubuntu Mono Regular" size="17.0" />
+            </font></Button>
+        </VBox>
+    </center>
+</BorderPane>

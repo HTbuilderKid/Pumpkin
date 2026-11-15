@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="470.0" prefWidth="500.0" spacing="16.0" style="-fx-background-color: #0b1a4a;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+
+    <Label style="-fx-text-fill: white;" text="Vitals">
+      <font>
+         <Font name="Ubuntu Mono Regular" size="49.0" />
+      </font></Label>
+
+    <Label style="-fx-text-fill: #9fb3d9;" text="Health monitoring for the final frontier">
+      <font>
+         <Font name="Ubuntu Mono Regular" size="16.0" />
+      </font></Label>
+
+    <Region prefHeight="20.0" />
+
+    <Button fx:id="log_vitals_button" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #9ea8fd; -fx-font-weight: bold; -fx-background-radius: 7; -fx-cursor: hand;" text="Log Vitals">
+      <font>
+         <Font name="Ubuntu Mono Regular" size="15.0" />
+      </font></Button>
+
+    <Button fx:id="how_to_use_button" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-border-color: #9ea8fd; -fx-border-width: 1; -fx-border-radius: 7; -fx-background-radius: 7; -fx-text-fill: #9ea8fd; -fx-cursor: hand;" text="How to Use">
+      <font>
+         <Font name="Ubuntu Mono Regular" size="14.0" />
+      </font></Button>
+</VBox>
