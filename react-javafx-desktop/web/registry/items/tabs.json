@@ -1,0 +1,22 @@
+{
+  "name": "tabs",
+  "type": "registry:ui",
+  "title": "Tabs",
+  "description": "tabs with a white pill that glides to the chosen tab. drop-in for the shadcn tabs.",
+  "dependencies": [
+    "class-variance-authority@0.7.1",
+    "cn@0.5.2",
+    "radix-ui@1.8.1"
+  ],
+  "files": [
+    {
+      "path": "components/ui/tabs.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "key:ArrowRight"
+    ]
+  }
+}

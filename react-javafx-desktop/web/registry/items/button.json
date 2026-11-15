@@ -1,0 +1,8 @@
+{
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "a pill-shaped button in black, white or grey, with round icon sizes. drop-in for the shadcn button.",
+  "dependencies": ["class-variance-authority@0.7.1", "cn@0.5.2", "radix-ui@1.8.1", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "files": [{ "path": "components/ui/button.tsx", "type": "registry:ui" }]
+}

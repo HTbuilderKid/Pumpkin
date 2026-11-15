@@ -1,0 +1,9 @@
+{
+  "name": "calendar",
+  "type": "registry:ui",
+  "title": "Calendar",
+  "description": "a calendar whose green pill glides to the chosen day. drop-in for the shadcn calendar.",
+  "dependencies": ["react-day-picker@10.0.2", "date-fns@4.4.0", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "registryDependencies": ["button"],
+  "files": [{ "path": "components/ui/calendar.tsx", "type": "registry:ui" }]
+}

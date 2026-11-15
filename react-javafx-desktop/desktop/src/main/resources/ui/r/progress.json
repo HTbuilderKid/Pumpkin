@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "progress",
+  "title": "Progress",
+  "description": "a progress bar whose green fill glides to each value. drop-in for the shadcn progress.",
+  "dependencies": [
+    "radix-ui@1.8.1",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "registryDependencies": [
+    "https://plush-ui.pages.dev/r/tokens.json"
+  ],
+  "files": [
+    {
+      "path": "components/ui/progress.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { cn } from \"cn\"\nimport { Progress as ProgressPrimitive } from \"radix-ui\"\n\n// The fill is drawn by its width, so the green line always runs across the filled part only; it glides\n// to a new value on the calm spring.\n// Two differences to the shadcn original, both needed for the states Radix sets:\n// - value goes to the root as well, so Radix sets aria-valuenow and data-state (loading, complete, indeterminate); the\n//   original keeps it back, and every bar reads as indeterminate.\n// - the fill is value / max (clamped), so a full bar and data-state=complete agree for any max.\n// Complete: the fill lights up once (a light veil that fades out) when the fill has nearly arrived. Only a change to\n// complete shows it: the veil is hidden in every other state and turns visible after a delay, without a transition of its\n// own, so a bar that loads complete stays still.\n// Indeterminate (no value): the green line lies faint across the whole track, at rest. No endless loop (contract).\nfunction Progress({\n  className,\n  value,\n  max,\n  ...props\n}: React.ComponentProps<typeof ProgressPrimitive.Root>) {\n  // Radix logs an error and drops a value outside 0..max (and a max <= 0); here a value beyond either end is held at\n  // that end, so 150 of 100 is a full, complete bar and -20 an empty one; anything not a number is indeterminate.\n  const total = typeof max === \"number\" && max > 0 ? max : 100\n  const safe = typeof value === \"number\" && !Number.isNaN(value) ? Math.min(total, Math.max(0, value)) : null\n  const percent = safe === null ? 0 : (safe / total) * 100\n\n  return (\n    <ProgressPrimitive.Root\n      data-slot=\"progress\"\n      value={safe}\n      max={total}\n      className={cn(\n        \"plush-font relative flex h-(--plush-track) w-full items-center overflow-x-hidden rounded-(--plush-radius-full) bg-(--plush-fill-strong)\",\n        // Indeterminate: the green line across the whole track, faint and still; fades out when a value arrives.\n        \"before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:bg-(image:--plush-select-line) before:opacity-0\",\n        \"before:transition-opacity before:duration-(--plush-dur-fade) before:ease-(--plush-ease-fade)\",\n        \"data-[state=indeterminate]:before:opacity-(--plush-plate-opacity)\",\n        className\n      )}\n      {...props}\n    >\n      <ProgressPrimitive.Indicator\n        data-slot=\"progress-indicator\"\n        className={cn(\n          \"relative h-full shrink-0 rounded-(--plush-radius-full) bg-(image:--plush-select-line) shadow-(--plush-select-gloss)\",\n          \"[transition:width_var(--plush-dur-calm)_var(--plush-ease-calm)]\",\n          // The light-up at complete: hidden at full strength in every other state; at complete it turns visible two\n          // beats later (the fill is then ~90 % of the way) and fades out.\n          \"after:pointer-events-none after:absolute after:inset-0 after:invisible after:rounded-[inherit] after:bg-(--plush-flash)\",\n          \"data-[state=complete]:after:visible data-[state=complete]:after:opacity-0\",\n          \"data-[state=complete]:after:[transition:opacity_var(--plush-dur-slow)_var(--plush-ease-fade)_calc(2*var(--plush-beat)),visibility_0s_calc(2*var(--plush-beat))]\"\n        )}\n        style={{ width: `${percent}%` }}\n      />\n    </ProgressPrimitive.Root>\n  )\n}\n\nexport { Progress }\n",
+      "type": "registry:ui"
+    }
+  ],
+  "type": "registry:ui"
+}

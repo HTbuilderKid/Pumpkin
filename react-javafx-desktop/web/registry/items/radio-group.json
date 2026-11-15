@@ -1,0 +1,23 @@
+{
+  "name": "radio-group",
+  "type": "registry:ui",
+  "title": "Radio Group",
+  "description": "a radio group whose green dot grows out of the chosen circle. drop-in for the shadcn radio group.",
+  "dependencies": [
+    "cn@0.5.2",
+    "radix-ui@1.8.1"
+  ],
+  "files": [
+    {
+      "path": "components/ui/radio-group.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "kdown:ArrowDown",
+      "wait:60",
+      "kup:ArrowDown"
+    ]
+  }
+}

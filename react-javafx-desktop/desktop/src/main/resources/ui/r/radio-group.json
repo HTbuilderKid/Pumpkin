@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio-group",
+  "title": "Radio Group",
+  "description": "a radio group whose green dot grows out of the chosen circle. drop-in for the shadcn radio group.",
+  "dependencies": [
+    "cn@0.5.2",
+    "radix-ui@1.8.1"
+  ],
+  "registryDependencies": [
+    "https://plush-ui.pages.dev/r/tokens.json"
+  ],
+  "files": [
+    {
+      "path": "components/ui/radio-group.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { cn } from \"cn\"\nimport { RadioGroup as RadioGroupPrimitive } from \"radix-ui\"\n\n// The circle is --plush-fill-strong; the green ink is its own layer (::before) and the dark dot sits in the indicator.\n// Both grow out of the centre on the spring and shrink back into it, in this order: leaving, the dot goes\n// first and the ink follows; arriving, the ink comes and the dot follows. Delays are steps of --plush-stagger. The\n// indicator stays mounted (forceMount) so the dot can shrink instead of vanishing. Pressed on its own, the circle gives\n// a little; inside a <label> the row is what gives.\n\nfunction RadioGroup({\n  className,\n  ...props\n}: React.ComponentProps<typeof RadioGroupPrimitive.Root>) {\n  return (\n    <RadioGroupPrimitive.Root\n      data-slot=\"radio-group\"\n      className={cn(\"plush-font grid w-full gap-2\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction RadioGroupItem({\n  className,\n  ...props\n}: React.ComponentProps<typeof RadioGroupPrimitive.Item>) {\n  return (\n    <RadioGroupPrimitive.Item\n      data-slot=\"radio-group-item\"\n      className={cn(\n        \"group/radio-group-item peer plush-focus-ring relative flex aspect-square size-(--plush-radio) shrink-0 rounded-(--plush-radius-full) bg-(--plush-fill-strong)\",\n        // Green ink, grown out of the centre.\n        \"before:pointer-events-none before:absolute before:inset-0 before:scale-0 before:rounded-[inherit] before:bg-(image:--plush-select-fill) before:shadow-(--plush-select-gloss)\",\n        \"before:[transition:scale_var(--plush-dur-spring)_var(--plush-ease-spring)_var(--plush-stagger),filter_var(--plush-dur-fast)_var(--plush-ease-fade)]\",\n        \"data-[state=checked]:before:scale-100 data-[state=checked]:before:[transition-delay:calc(var(--plush-stagger)*2.5),0s]\",\n        // Pressed on its own: a little smaller (not inside a label, where the row gives instead).\n        \"[transition:scale_var(--plush-dur-spring)_var(--plush-ease-spring),box-shadow_var(--plush-dur-fade)_var(--plush-ease-fade),background-color_var(--plush-dur-fast)_var(--plush-ease-fade)] enabled:active:not-in-[label]:scale-(--plush-press-scale)\",\n        // Hover (mouse only, never disabled; also over its <label>): empty, the circle turns one grey darker\n        // (--plush-control-hover, the grey of an empty control under the pointer) and grows a little on the spring, not while pressed;\n        // chosen, the green ink only gets a little brighter.\n        \"enabled:data-[state=unchecked]:hover:bg-(--plush-control-hover) enabled:data-[state=unchecked]:not-active:hover:scale-(--plush-hover-grow) enabled:hover:before:brightness-(--plush-hover-bright)\",\n        // Larger hit area, as in the original.\n        \"after:absolute after:-inset-x-3 after:-inset-y-2\",\n        \"data-disabled:cursor-not-allowed data-disabled:opacity-(--plush-disabled-opacity)\",\n        \"aria-invalid:ring-(length:--plush-focus-width) aria-invalid:ring-(--plush-danger)\",\n        className\n      )}\n      {...props}\n    >\n      <RadioGroupPrimitive.Indicator\n        data-slot=\"radio-group-indicator\"\n        forceMount\n        className=\"flex size-full items-center justify-center\"\n      >\n        <span\n          className={cn(\n            \"pointer-events-none absolute top-1/2 left-1/2 size-(--plush-radio-dot) -translate-x-1/2 -translate-y-1/2 scale-0 rounded-(--plush-radius-full) bg-(--plush-on-select)\",\n            \"[transition:scale_var(--plush-dur-spring)_var(--plush-ease-spring)]\",\n            \"group-data-[state=checked]/radio-group-item:scale-100 group-data-[state=checked]/radio-group-item:[transition-delay:calc(var(--plush-stagger)*4.5)]\"\n          )}\n        />\n      </RadioGroupPrimitive.Indicator>\n    </RadioGroupPrimitive.Item>\n  )\n}\n\nexport { RadioGroup, RadioGroupItem }\n",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "kdown:ArrowDown",
+      "wait:60",
+      "kup:ArrowDown"
+    ]
+  },
+  "type": "registry:ui"
+}

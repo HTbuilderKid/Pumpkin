@@ -1,0 +1,298 @@
+@import "tailwindcss";
+@import "../registry/tokens/tokens.css";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-heading: var(--font-sans);
+    --font-sans: var(--font-sans);
+    --color-sidebar-ring: var(--sidebar-ring);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar: var(--sidebar);
+    --color-chart-5: var(--chart-5);
+    --color-chart-4: var(--chart-4);
+    --color-chart-3: var(--chart-3);
+    --color-chart-2: var(--chart-2);
+    --color-chart-1: var(--chart-1);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --color-foreground: var(--foreground);
+    --color-background: var(--background);
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.145 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.145 0 0);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.145 0 0);
+    --primary: oklch(0.205 0 0);
+    --primary-foreground: oklch(0.985 0 0);
+    --secondary: oklch(0.97 0 0);
+    --secondary-foreground: oklch(0.205 0 0);
+    --muted: oklch(0.97 0 0);
+    --muted-foreground: oklch(0.556 0 0);
+    --accent: oklch(0.97 0 0);
+    --accent-foreground: oklch(0.205 0 0);
+    --destructive: oklch(0.577 0.245 27.325);
+    --border: oklch(0.922 0 0);
+    --input: oklch(0.922 0 0);
+    --ring: oklch(0.708 0 0);
+    --chart-1: oklch(0.87 0 0);
+    --chart-2: oklch(0.556 0 0);
+    --chart-3: oklch(0.439 0 0);
+    --chart-4: oklch(0.371 0 0);
+    --chart-5: oklch(0.269 0 0);
+    --radius: 0.625rem;
+    --sidebar: oklch(0.985 0 0);
+    --sidebar-foreground: oklch(0.145 0 0);
+    --sidebar-primary: oklch(0.205 0 0);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.97 0 0);
+    --sidebar-accent-foreground: oklch(0.205 0 0);
+    --sidebar-border: oklch(0.922 0 0);
+    --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+    --background: oklch(0.145 0 0);
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.205 0 0);
+    --card-foreground: oklch(0.985 0 0);
+    --popover: oklch(0.205 0 0);
+    --popover-foreground: oklch(0.985 0 0);
+    --primary: oklch(0.922 0 0);
+    --primary-foreground: oklch(0.205 0 0);
+    --secondary: oklch(0.269 0 0);
+    --secondary-foreground: oklch(0.985 0 0);
+    --muted: oklch(0.269 0 0);
+    --muted-foreground: oklch(0.708 0 0);
+    --accent: oklch(0.269 0 0);
+    --accent-foreground: oklch(0.985 0 0);
+    --destructive: oklch(0.704 0.191 22.216);
+    --border: oklch(1 0 0 / 10%);
+    --input: oklch(1 0 0 / 15%);
+    --ring: oklch(0.556 0 0);
+    --chart-1: oklch(0.87 0 0);
+    --chart-2: oklch(0.556 0 0);
+    --chart-3: oklch(0.439 0 0);
+    --chart-4: oklch(0.371 0 0);
+    --chart-5: oklch(0.269 0 0);
+    --sidebar: oklch(0.205 0 0);
+    --sidebar-foreground: oklch(0.985 0 0);
+    --sidebar-primary: oklch(0.488 0.243 264.376);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent-foreground: oklch(0.985 0 0);
+    --sidebar-border: oklch(1 0 0 / 10%);
+    --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    }
+  body {
+    @apply bg-background text-foreground;
+    }
+  html {
+    @apply font-sans;
+    }
+}
+/* Library site (app/page.tsx, components/site/): the bento page. Not part of the registry.
+   Unit: 8 columns of about 210 px at 1920, half row 104 px, gap 20.
+   Wide: fixed 104 px half rows and a fixed place per tile, so the tiles close into one block without holes:
+   from 1860 px 8 columns (about 210 px at 1920, catalog `at`, 8 x 10), from 1408 px 6 columns (about 207 px at 1440,
+   at most 232, catalog `at6`, 6 x 13), from 1024 px 4 columns (catalog `at4`, 4 x 20, rows may grow). A tile's half rows
+   can differ per grid (--plush-r8, --plush-r6, --plush-r4 from the catalog), so each grid closes without holes.
+   Below: 2 columns packed densely in tile order; phones: one column. */
+:root {
+  --plush-site-col: 232px; /* widest column */
+  --plush-site-row: 104px;
+  --plush-site-gap: 20px;
+  --plush-site-cols-wide: 6;
+  --plush-site-cols: 1;
+  --plush-site-margin: 16px;
+  --plush-site-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (min-width: 640px) {
+  :root { --plush-site-cols: 2; --plush-site-margin: 32px; }
+}
+@media (min-width: 1024px) {
+  :root { --plush-site-cols: 4; --plush-site-margin: 48px; }
+}
+@media (min-width: 1408px) {
+  :root { --plush-site-cols: var(--plush-site-cols-wide); }
+}
+@media (min-width: 1860px) {
+  :root { --plush-site-cols-wide: 8; }
+}
+
+@layer components {
+  .plush-site-frame {
+    box-sizing: border-box;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: var(--plush-site-margin);
+    max-width: calc(var(--plush-site-cols-wide) * var(--plush-site-col) + (var(--plush-site-cols-wide) - 1) * var(--plush-site-gap) + 2 * var(--plush-site-margin));
+  }
+  .plush-site-grid {
+    display: grid;
+    gap: var(--plush-site-gap);
+    grid-template-columns: repeat(var(--plush-site-cols), minmax(0, 1fr));
+    grid-auto-flow: row dense;
+  }
+  /* Phone: one column, each tile keeps the height of its half rows (at most 4); ready tiles come first. */
+  /* isolation: every tile is its own stack, so a demo's z-index (sonner puts its toaster at 999999999) stays inside the
+     tile and never rises over a neighbour or the detail view. */
+  .plush-site-tile {
+    position: relative;
+    isolation: isolate;
+    min-width: 0;
+    min-height: calc(min(var(--plush-r), 4) * var(--plush-site-row) + (min(var(--plush-r), 4) - 1) * var(--plush-site-gap));
+  }
+  .plush-site-tile[data-ready="true"] { order: -1; }
+  @media (min-width: 640px) {
+    .plush-site-grid { grid-auto-rows: minmax(var(--plush-site-row), auto); }
+    .plush-site-tile { min-height: 0; grid-row: span var(--plush-r); grid-column: span min(var(--plush-c2), var(--plush-site-cols)); }
+    .plush-site-tile[data-ready="true"] { order: 0; }
+  }
+  @media (min-width: 1024px) {
+    .plush-site-tile { grid-column: var(--plush-x4) / span var(--plush-c); grid-row: var(--plush-y4) / span var(--plush-r4); }
+  }
+  @media (min-width: 1408px) {
+    .plush-site-grid { grid-auto-rows: var(--plush-site-row); }
+    .plush-site-tile { grid-column: var(--plush-x6) / span var(--plush-c); grid-row: var(--plush-y6) / span var(--plush-r6); }
+  }
+  @media (min-width: 1860px) {
+    .plush-site-tile { grid-column: var(--plush-x) / span var(--plush-c); grid-row: var(--plush-y) / span var(--plush-r8); }
+  }
+
+  /* Name and copy of a tile. With a mouse on a two-column or wider grid: a pill on the tile's lower edge, half in the
+     gap (it covers none of the tile's controls), shown while the tile is hovered or holds focus. Otherwise (phones,
+     touch) it stays under the demo with the command written out. */
+  @media (min-width: 640px) and (hover: hover) {
+    .plush-site-label {
+      position: absolute;
+      right: var(--plush-pad);
+      bottom: 0;
+      z-index: 10;
+      max-width: calc(100% - 2 * var(--plush-pad));
+      translate: 0 50%;
+      border-radius: var(--plush-radius-full);
+      background: var(--plush-surface);
+      box-shadow: var(--plush-shadow-knob);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--plush-dur-fade) var(--plush-ease-fade);
+    }
+    .plush-site-tile:is(:hover, :focus-within) .plush-site-label { opacity: 1; pointer-events: auto; }
+    /* One-column tiles: the pill sits half a padding from the edge, keeps the name on one line (names are short and fixed)
+       and may reach a few px past the tile's left edge on the narrowest 6-column grid (1408 px), so "progress-ring" never wraps. */
+    .plush-site-tile[data-cols="1"] .plush-site-label { right: calc(var(--plush-pad) / 2); max-width: none; white-space: nowrap; }
+    /* There the copy button only swaps icon and colour: "copied" would widen the pill about 70 px to the left, over the
+       neighbouring tile. The status line still says it. */
+    .plush-site-tile[data-cols="1"] .plush-site-label .plush-site-reveal { display: none; }
+    .plush-site-cmd { display: none; }
+  }
+  /* On the dark tile the name and command under the demo (phones, touch) are written in white with the light focus ring;
+     the copy button stays white. (On the wide grid the name is a white pill and keeps the dark ring.) */
+  @media not ((min-width: 640px) and (hover: hover)) {
+    .plush-site-tile[data-tone="dark"] :is(.plush-site-label > [data-detail], .plush-site-cmd) {
+      --plush-ink: var(--plush-on-accent);
+      --plush-ink-2: var(--plush-on-accent-2);
+      --plush-ink-3: var(--plush-on-accent-2);
+      --plush-site-name-hover: var(--plush-on-accent-track-hover); /* the name's hover tint on black: see-through white */
+    }
+    .plush-site-tile[data-tone="dark"] .plush-site-label {
+      @apply plush-on-dark;
+    }
+  }
+
+  .plush-site-code {
+    font-family: var(--plush-site-mono);
+    overflow-wrap: anywhere;
+  }
+
+  /* Micro motion of the page. Colour and opacity on the fade, movement and size on a spring (always as a pair).
+     Hover lives in the utilities on each control (Tailwind's hover: sits in @media (hover: hover)); tiles have none. */
+  .plush-site-pop {
+    transition: opacity var(--plush-dur-fade) var(--plush-ease-fade), scale var(--plush-dur-spring) var(--plush-ease-spring);
+  }
+  .plush-site-reveal {
+    transition: max-width var(--plush-dur-soft) var(--plush-ease-soft), margin var(--plush-dur-soft) var(--plush-ease-soft), opacity var(--plush-dur-fade) var(--plush-ease-fade);
+  }
+
+  /* Page head on the tile grid: name and sentence, then the command over three tile columns; from 1408 px (six or eight
+     columns) the command moves into the last three columns beside them, its foot on the sentence's foot. The note under
+     the command shows only where the tiles hide their own commands (mouse, two columns or more; see .plush-site-label). */
+  .plush-site-head {
+    display: grid;
+    grid-template-columns: repeat(var(--plush-site-cols), minmax(0, 1fr));
+    gap: 28px var(--plush-site-gap);
+    align-items: end;
+    padding-top: max(var(--plush-site-margin), 40px);
+    padding-bottom: 40px;
+  }
+  .plush-site-head-text { grid-column: 1 / -1; }
+  .plush-site-head-cmd { grid-column: 1 / span min(3, var(--plush-site-cols)); }
+  @media (min-width: 1408px) {
+    .plush-site-head-text { grid-column: 1 / -4; grid-row: 1; }
+    .plush-site-head-cmd { grid-column: -4 / -1; grid-row: 1; }
+  }
+  @media not ((min-width: 640px) and (hover: hover)) {
+    .plush-site-head-note { display: none; }
+  }
+}
+
+/* Load without motion (outside the layers, so they beat the components' utilities):
+   - The open answer of the accordion tile: before hydration Radix has not measured it, so its open keyframe would run
+     from height 0 towards an unset height and the answer would pop in later, pushing the page down. Once Radix has
+     measured it (--radix-collapsible-content-height gets a value in its style; the server HTML only names it inside
+     var()), it handles the first open itself.
+   - plush-site-still: the toast and the bubble that are already there on load appear in place; the next ones move. */
+.plush-site-tile [data-slot="accordion-content"][data-state="open"]:not([style*="--radix-collapsible-content-height:"]) {
+  animation: none;
+}
+.plush-site-still:not([data-removed="true"]),
+.plush-site-still:not([data-removed="true"]) *,
+.plush-site-still:not([data-removed="true"])::before,
+.plush-site-still:not([data-removed="true"]) *::before {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* The copy button in a tile's name pill (the button after the name; a status line follows it) lies flat on the white pill
+   (outside the layers, so it beats the button's shadow utility); under the pointer it takes the hover shadow. */
+@media (min-width: 640px) and (hover: hover) {
+  .plush-site-label > button:not([data-detail]):not(:hover) { box-shadow: none; }
+}

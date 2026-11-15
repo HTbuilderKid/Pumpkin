@@ -1,0 +1,17 @@
+{
+  "name": "steps",
+  "type": "registry:ui",
+  "title": "Steps",
+  "description": "a step indicator whose current dot turns into a tick.",
+  "dependencies": [
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/steps.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

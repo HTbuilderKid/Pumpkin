@@ -1,0 +1,5 @@
+**/target/
+**/runtime/
+web/node_modules/
+web/.next/
+web/out/

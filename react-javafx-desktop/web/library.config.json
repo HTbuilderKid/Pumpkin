@@ -1,0 +1,8 @@
+{
+  "name": "plush",
+  "displayName": "plush",
+  "description": "soft react components on shadcn and radix.",
+  "namespace": "@plush",
+  "url": "https://plush-ui.pages.dev",
+  "repo": "https://github.com/dominikmartn/plush-ui"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "input",
+  "type": "registry:ui",
+  "title": "Input",
+  "description": "a text field as a white pill with a green caret. drop-in for the shadcn input.",
+  "dependencies": [
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "key:a"
+    ]
+  }
+}

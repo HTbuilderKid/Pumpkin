@@ -1,0 +1,8 @@
+{
+  "name": "progress",
+  "type": "registry:ui",
+  "title": "Progress",
+  "description": "a progress bar whose green fill glides to each value. drop-in for the shadcn progress.",
+  "dependencies": ["radix-ui@1.8.1", "cn@0.5.2", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "files": [{ "path": "components/ui/progress.tsx", "type": "registry:ui" }]
+}

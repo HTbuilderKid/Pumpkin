@@ -1,0 +1,21 @@
+{
+  "name": "sonner",
+  "type": "registry:ui",
+  "title": "Sonner",
+  "description": "a toast as a white pill with a coloured dot. drop-in for the shadcn sonner.",
+  "dependencies": [
+    "sonner@2.0.8",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/sonner.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testWaitBefore": 1500
+  }
+}

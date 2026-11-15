@@ -1,0 +1,11 @@
+{
+  "name": "counter",
+  "type": "registry:ui",
+  "title": "Counter",
+  "description": "a number between a minus and a plus button that rolls to each new value.",
+  "dependencies": ["cn@0.5.2", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "files": [{ "path": "components/ui/counter.tsx", "type": "registry:ui" }],
+  "meta": {
+    "testAction": ["key:ArrowUp"]
+  }
+}

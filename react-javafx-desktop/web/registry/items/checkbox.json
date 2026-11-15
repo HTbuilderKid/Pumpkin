@@ -1,0 +1,23 @@
+{
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "Checkbox",
+  "description": "a checkbox that fills with green and draws its tick. drop-in for the shadcn checkbox.",
+  "dependencies": [
+    "radix-ui@1.8.1",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/checkbox.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "key:Space"
+    ]
+  }
+}

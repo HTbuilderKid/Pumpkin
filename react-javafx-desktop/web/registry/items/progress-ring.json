@@ -1,0 +1,16 @@
+{
+  "name": "progress-ring",
+  "type": "registry:ui",
+  "title": "Progress Ring",
+  "description": "a round progress indicator whose ring springs to each value.",
+  "dependencies": [
+    "radix-ui@1.8.1",
+    "cn@0.5.2"
+  ],
+  "files": [
+    {
+      "path": "components/ui/progress-ring.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "slider",
+  "type": "registry:ui",
+  "title": "Slider",
+  "description": "a slider with a green fill and a knob that springs to each value. drop-in for the shadcn slider.",
+  "dependencies": [
+    "cn@0.5.2",
+    "radix-ui@1.8.1"
+  ],
+  "files": [
+    {
+      "path": "components/ui/slider.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "key:ArrowRight"
+    ]
+  }
+}

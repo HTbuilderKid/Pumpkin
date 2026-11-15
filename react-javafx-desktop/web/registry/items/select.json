@@ -1,0 +1,8 @@
+{
+  "name": "select",
+  "type": "registry:ui",
+  "title": "Select",
+  "description": "a select whose list grows out of the field. drop-in for the shadcn select.",
+  "dependencies": ["cn@0.5.2", "radix-ui@1.8.1", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "files": [{ "path": "components/ui/select.tsx", "type": "registry:ui" }]
+}

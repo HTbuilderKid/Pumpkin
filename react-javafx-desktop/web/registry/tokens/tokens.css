@@ -1,0 +1,310 @@
+/* Style variables of the library. The one source: scripts/build-registry.mjs turns this file into the
+   registry item "tokens" (top-level :root -> cssVars.light, .dark -> cssVars.dark, everything else -> css).
+   The plush look, with its gradient. Light only for now; a dark version is a `.dark { ... }` block with the same names.
+   Prefix: every name starts with "plush". Renaming = one case-sensitive search-and-replace of "plush" in the repo.
+   Not allowed here (the shadcn CLI cannot merge it): @font-face. Fonts come in as npm packages via @import. */
+
+/* Fallback font for systems without SF Pro Rounded (OFL-1.1, see licenses/open-runde-OFL.txt). */
+@import "@fontsource/open-runde/500.css";
+@import "@fontsource/open-runde/600.css";
+
+:root {
+  /* Surfaces, from back to front */
+  --plush-bg: #fbfbfa;
+  --plush-panel: #f3f3f1;
+  --plush-panel-tint: #e9e9e6;
+  --plush-surface: #ffffff;
+  --plush-fill: #f0f0ee;
+  --plush-fill-strong: #e8e8e5;
+  --plush-line: #e4e4e1;
+  --plush-control-off: #e4e4e1;
+
+  /* Ink (text and icons) */
+  --plush-ink: #141414;
+  --plush-ink-2: #6e6e72;
+  --plush-ink-3: #a3a3a6;
+
+  /* Accent: buttons and primary actions stay black */
+  --plush-accent: #161616;
+  --plush-on-accent: #ffffff;
+  --plush-on-accent-2: rgba(255, 255, 255, .58);
+  --plush-on-accent-track: rgba(255, 255, 255, .16);
+  --plush-on-accent-track-hover: rgba(255, 255, 255, .28); /* see-through white on black under the pointer */
+  --plush-on-accent-track-press: rgba(255, 255, 255, .40); /* see-through white on black while pressed, a step over the hover; white text stays legible */
+  --plush-accent-tint: #efefec;
+  --plush-accent-hover: color-mix(in oklab, var(--plush-accent), var(--plush-on-accent) 12%); /* the black button under the pointer */
+  --plush-scrim: color-mix(in oklab, var(--plush-ink) 32%, transparent); /* dim behind a dialog */
+  --plush-flash: rgba(255, 255, 255, .58); /* a fill that lights up once (progress complete) */
+
+  /* Status */
+  --plush-success: #2fc26b;
+  --plush-danger: #f2473d;
+  --plush-warning: #f5a524;
+  --plush-pink: #ee4a92;
+  --plush-danger-hover: color-mix(in oklab, var(--plush-danger), var(--plush-on-accent) 12%); /* the red button under the pointer */
+  --plush-badge: var(--plush-danger);
+  --plush-on-success: #ffffff; /* glyph on a green status dot */
+
+  /* Selection (gradient look): every value or selection is drawn in one green gradient, text on it stays dark */
+  --plush-select-a: #16c26b;
+  --plush-select-b: #b8e62e;
+  --plush-select-line: linear-gradient(90deg, var(--plush-select-a), var(--plush-select-b));
+  --plush-select-up: linear-gradient(0deg, var(--plush-select-a), var(--plush-select-b));
+  --plush-select-fill: linear-gradient(135deg, var(--plush-select-a), var(--plush-select-b));
+  --plush-on-select: #141414;
+  --plush-select-gloss: inset 0 1px 0 rgba(255, 255, 255, .45);
+  --plush-select-mark: color-mix(in oklab, var(--plush-select-a) 30%, transparent); /* marked text (native text selection) */
+  --plush-select-knob-shadow: 0 1px 3px color-mix(in srgb, color-mix(in oklab, var(--plush-select-a), black 45%) 35%, transparent), 0 2px 8px color-mix(in srgb, var(--plush-select-a) 18%, transparent);
+
+  /* Radius */
+  --plush-radius-panel: 40px;
+  --plush-radius-sheet: 32px;
+  --plush-radius-card: 28px;
+  --plush-radius-row: 16px;
+  --plush-radius-item: 10px; /* rows inside a list: --plush-radius-row minus the list's 6 px inset */
+  --plush-radius-full: 999px;
+  --plush-radius-check: 9px; /* checkbox box */
+  --plush-radius-tooltip: 14px; /* tooltip bubble */
+  --plush-radius-caret: 2px; /* text caret */
+
+  /* Shadow */
+  --plush-shadow-soft: 0 1px 2px rgba(20, 20, 20, .04), 0 8px 24px rgba(20, 20, 20, .04);
+  --plush-shadow-knob: 0 1px 3px rgba(20, 20, 20, .16), 0 2px 8px rgba(20, 20, 20, .06);
+  --plush-card-shadow: var(--plush-shadow-soft);
+  --plush-active-shadow: var(--plush-shadow-knob);
+
+  /* Type: Apple's rounded face where the system has it, Open Runde everywhere else */
+  --plush-font: ui-rounded, "SF Pro Rounded", "Open Runde", system-ui, sans-serif;
+  --plush-weight-medium: 500;
+  --plush-weight-semi: 600;
+  /* A fixed line height (SF Pro Rounded: hhea 1980 + 432 of 2048), for text that must sit
+     the same in every font (Open Runde's own lines are 1.5 high). */
+  --plush-leading: 1.18;
+  /* Type sizes: caption 13, sub 14, hint 15, rows 16, title and day numbers 17, sheet title 20 */
+  --plush-text-xs: 13px;
+  --plush-text-sm: 14px;
+  --plush-text-md: 15px;
+  --plush-text-lg: 16px;
+  --plush-text-xl: 17px;
+  --plush-text-2xl: 20px;
+  --plush-text-btn: 18px; /* button and status pill label */
+  --plush-text-avatar-lg: 18px; /* letters in a large avatar */
+  --plush-text-counter: 40px; /* counter number, default and lg */
+  --plush-text-counter-lg: 60px;
+
+  /* Sizes (px heights of the controls) */
+  --plush-pad: 20px;
+  --plush-h-btn: 56px;
+  --plush-h-btn-sm: 50px;
+  --plush-h-field: 56px;
+  --plush-h-tab: 48px;
+  --plush-h-chip: 42px;
+  --plush-h-status: 52px;
+  --plush-h-step: 52px;
+  --plush-h-icon: 56px;
+  --plush-h-code: 60px;
+  --plush-h-option: 56px;
+  --plush-h-toast: 60px;
+  --plush-toggle-w: 52px;
+  --plush-toggle-h: 32px;
+  --plush-knob: 28px;
+  --plush-track: 8px;
+  --plush-h-row: 44px; /* a row in a list (menu item) */
+  --plush-toggle-w-sm: 39px; /* switch size "sm": 3/4 of the default */
+  --plush-toggle-h-sm: 24px;
+  --plush-knob-sm: 20px;
+  --plush-knob-stretch: 6px; /* a held knob widens by this (default size; sm takes 3/4) */
+  --plush-cal-day: 44px; /* calendar day circle */
+  --plush-cal-nav: 32px; /* calendar arrow buttons */
+  --plush-check: 26px; /* checkbox box */
+  --plush-radio: 24px; /* radio circle */
+  --plush-radio-dot: 10px; /* dot inside a checked radio */
+  --plush-h-chip-sm: 32px; /* toggle pill, size sm */
+  --plush-h-chip-lg: 48px; /* toggle pill, size lg */
+  --plush-code-box: 52px; /* code input box width (height --plush-h-code) */
+  --plush-code-gap: 10px; /* between code input boxes */
+  --plush-text-code: 26px; /* digit in a code input box */
+  --plush-caret-w: 2px;
+  --plush-caret-h: 28px;
+  --plush-tooltip-dot: 20px; /* a tooltip grows out of a dot this big */
+  --plush-h-btn-lg: 64px; /* button size lg */
+  --plush-h-step-sm: 44px; /* counter buttons, default size (lg: --plush-h-step) */
+  --plush-w-dialog: 396px; /* dialog sheet, from 640 px viewport width on */
+  --plush-avatar: 32px; /* avatar sizes: default (list rows), sm (chat), lg (the stack) */
+  --plush-avatar-sm: 28px;
+  --plush-avatar-lg: 46px;
+  --plush-avatar-ring: 3px; /* ring around an avatar in a group, in the colour of the surface behind */
+  --plush-avatar-overlap: .26; /* part of a circle the next one covers; tight from six children on (more than four people and the plus) */
+  --plush-avatar-overlap-tight: .39;
+  --plush-steps-mark: 24px; /* step circle */
+  --plush-steps-dot: 8px; /* dot inside the current step's circle */
+  --plush-star: 28px; /* rating star box */
+  --plush-star-gap: 4px;
+  /* Progress ring: box 120 px, stroke 10 px, number 30 px. Stroke and number are kept as parts of the box, so a ring
+     made smaller with --plush-ring-size keeps the proportions. */
+  --plush-ring: 120px;
+  --plush-ring-stroke-part: calc(10 / 120);
+  --plush-ring-text-part: calc(30 / 120);
+  --plush-roll: .4em; /* how far a counter digit rolls (default, lg) */
+  --plush-roll-lg: .67em;
+
+  /* States */
+  --plush-disabled-opacity: .5;
+  --plush-hover-grow: 1.06; /* graspable things under the pointer: switch and slider knob, round icon buttons, stars */
+  --plush-hover-bright: 1.05; /* green (selected) surfaces under the pointer: brightness, never another colour */
+  --plush-press-scale: .86; /* small round buttons while pressed */
+  --plush-press-scale-check: .82; /* checkbox box while pressed */
+  --plush-press-scale-pill: .95; /* pills and fields while pressed (toggle, select field, code box) */
+  --plush-press-scale-wide: .93; /* wide shapes while pressed (tab pill) */
+  --plush-press-scale-row: .97; /* whole rows while pressed */
+  --plush-pop-scale: .55; /* new content (a typed digit) starts this small */
+  --plush-plate-opacity: .22; /* light green plate behind a chosen row */
+  /* The plate under the chosen radio row: the green line gradient at this strength, with a fine green edge, so the chosen
+     row reads at a glance against the white rows and the tile. */
+  --plush-radio-plate-opacity: .34;
+  --plush-radio-plate-edge: inset 0 0 0 1px color-mix(in oklab, var(--plush-select-a), var(--plush-ink) 30%);
+  --plush-surface-press: color-mix(in oklab, var(--plush-surface), var(--plush-ink) 10%); /* white button while pressed */
+  /* Pop: a short grow-and-back (keyframe plush-pop, strength --plush-pop-peak), peak scale per component */
+  --plush-pop-peak-counter: 1.08;
+  --plush-pop-peak-progress: 1.12;
+  --plush-pop-peak-steps: 1.18;
+  --plush-pop-peak-rating: 1.22;
+  --plush-fill-press: color-mix(in oklab, var(--plush-fill), var(--plush-ink) 10%);
+  /* Hover faces (mouse only, @media (hover: hover)) */
+  --plush-control-hover: color-mix(in oklab, var(--plush-fill-strong), var(--plush-ink) 6%); /* empty checkbox, radio, off switch track, slider track under the pointer */
+  --plush-surface-hover: var(--plush-surface); /* a white control under the pointer: stays white on a light ground (shadow only), grey on a dark one (plush-on-dark) */
+  --plush-fill-soft: color-mix(in oklab, var(--plush-fill) 50%, var(--plush-surface)); /* a flat row under the pointer on a white card, a step lighter than its press (--plush-fill) */
+
+  /* Focus ring, shared by every component (black like the accents, 3:1 and more on every surface) */
+  --plush-focus-color: var(--plush-ink);
+  --plush-focus-width: 2px;
+  --plush-focus-offset: 2px;
+
+  /* Motion. A spring curve is only right with its own duration: always use them as a pair
+     (--plush-ease-spring with --plush-dur-spring, soft with soft, calm with calm).
+     Springs: closed form of a mass-spring step response sampled into linear():
+     spring = 220/22 (~3 % overshoot) for switches, icons, text; soft = 170/20 (~2 %) for widths,
+     rings, sliders; calm = 120/18 (~1 %) for big slow moves. Duration = 23 / damping s (when it settles). */
+  /* Tempo: one factor on the three spring durations and on --plush-stagger and --plush-beat (1 = default, 0.7 = brisk, the
+     default). Set it on the root element only: the durations are resolved there. Fades keep their times. */
+  --plush-tempo: 0.7;
+  --plush-ease-spring: linear(0, 0.062, 0.203, 0.372, 0.538, 0.683, 0.801, 0.89, 0.952, 0.993, 1.016, 1.028, 1.031, 1.029, 1.025, 1.02, 1.015, 1.01, 1.006, 1.004, 1.002, 1, 1, 0.999, 0.999, 0.999, 0.999, 0.999, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
+  --plush-dur-spring: calc(1045ms * var(--plush-tempo));
+  --plush-ease-soft: linear(0, 0.058, 0.19, 0.35, 0.508, 0.65, 0.766, 0.856, 0.922, 0.968, 0.997, 1.013, 1.021, 1.023, 1.022, 1.019, 1.015, 1.012, 1.008, 1.006, 1.003, 1.002, 1.001, 1, 1, 1, 0.999, 0.999, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
+  --plush-dur-soft: calc(1150ms * var(--plush-tempo));
+  --plush-ease-calm: linear(0, 0.051, 0.166, 0.309, 0.452, 0.584, 0.696, 0.787, 0.858, 0.911, 0.949, 0.975, 0.992, 1.002, 1.008, 1.01, 1.011, 1.01, 1.009, 1.007, 1.006, 1.004, 1.003, 1.002, 1.001, 1.001, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
+  --plush-dur-calm: calc(1278ms * var(--plush-tempo));
+  /* Fades (opacity, colour: no overshoot): smoothstep, exactly this bezier. */
+  --plush-ease-fade: cubic-bezier(.333, 0, .667, 1);
+  --plush-dur-fast: 120ms;
+  --plush-dur-fade: 200ms;
+  --plush-dur-slow: 300ms;
+  /* Waits between the parts of one spring move run with the tempo too: stagger between parts, beat = one part
+     waits for the one before it (accordion: an answer's text fades in once its height has started). */
+  --plush-stagger: calc(65ms * var(--plush-tempo));
+  --plush-beat: calc(300ms * var(--plush-tempo));
+  --plush-slide: 26px; /* how far new content slides in (calendar month change) */
+  /* Drop: a sheet falls away with an ease-in (dialog close). Runs with the tempo. */
+  --plush-ease-drop: cubic-bezier(.333, 0, .667, 0);
+  --plush-dur-drop: calc(400ms * var(--plush-tempo));
+  /* Pop (keyframe plush-pop): up and back, smoothstep each way. Runs with the tempo. */
+  --plush-dur-pop: calc(400ms * var(--plush-tempo));
+  /* Spin (keyframe plush-spin): a loading glyph turns while something loads, the one allowed loop. */
+  --plush-ease-spin: linear;
+  --plush-dur-spin: 1000ms;
+}
+
+/* Force the fallback font (shows the look without Apple's font): data-plush-font="fallback" on <html> or any container. */
+:root[data-plush-font="fallback"], [data-plush-font="fallback"] {
+  --plush-font: "Open Runde", system-ui, sans-serif;
+}
+
+/* Registered numbers (@property --plush-counter-value, --plush-ring-number, --plush-pop-armed) live in the components that
+   use them (counter, progress-ring, accordion) as React <style> tags: the shadcn CLI cannot merge @property and would append
+   it to globals.css again on every add. */
+
+/* Reduced motion: movement is instant, fades stay. Components that use the duration variables get this for free. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --plush-dur-spring: 0ms;
+    --plush-dur-soft: 0ms;
+    --plush-dur-calm: 0ms;
+    --plush-stagger: 0ms;
+    --plush-beat: 0ms;
+    --plush-dur-drop: 0ms;
+    --plush-dur-pop: 0ms;
+    --plush-dur-spin: 0ms; /* a spinner stands still */
+  }
+}
+
+/* Enter and exit, from the build in core.js: opacity on a fade, position and scale on a spring. Combine:
+   animation: plush-fade-in var(--plush-dur-fade) var(--plush-ease-fade), plush-rise-in var(--plush-dur-spring) var(--plush-ease-spring); */
+/* In @layer base on purpose: the shadcn CLI puts top-level keyframes into @theme, where Tailwind drops unused ones. */
+@layer base {
+  @keyframes plush-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes plush-fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes plush-rise-in {
+    from { transform: translateY(10px) scale(.92); }
+    to { transform: none; }
+  }
+  @keyframes plush-rise-out {
+    from { transform: none; }
+    to { transform: translateY(10px) scale(.92); }
+  }
+  /* Grow out of the edge it hangs from (a list from its field): scale only, around transform-origin, no drift. Pair like
+     rise: plush-grow-in on a spring, plush-grow-out on the fade. Set transform-origin to that edge (Radix gives it). */
+  @keyframes plush-grow-in {
+    from { transform: scale(.92); }
+    to { transform: none; }
+  }
+  @keyframes plush-grow-out {
+    from { transform: none; }
+    to { transform: scale(.92); }
+  }
+  /* Accordion answer: open and close over the height Radix measures (pair with a spring). Opening and the answer's fade-in
+     start from their end state times (1 - --plush-pop-armed): an item that opens is armed (1) and grows from 0, one that
+     loaded open is not (0) and runs a step from end to end, so nothing moves on load. Set --plush-pop-armed where they run. */
+  @keyframes plush-accordion-down {
+    from { height: calc(var(--radix-accordion-content-height) * (1 - var(--plush-pop-armed))); }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes plush-accordion-fade-in {
+    from { opacity: calc(1 - var(--plush-pop-armed)); }
+    to { opacity: 1; }
+  }
+  @keyframes plush-accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+  /* Pop: grows to --plush-pop-peak and back (with --plush-dur-pop and --plush-ease-fade), shown only while --plush-pop-armed is 1. */
+  @keyframes plush-pop {
+    50% { scale: calc(1 + (var(--plush-pop-peak, 1) - 1) * var(--plush-pop-armed, 1)); }
+  }
+  /* Spin: one turn (with --plush-dur-spin, --plush-ease-spin, infinite), only while something loads. */
+  @keyframes plush-spin {
+    to { rotate: 360deg; }
+  }
+}
+
+/* Shared utilities */
+@utility plush-font {
+  font-family: var(--plush-font);
+  -webkit-font-smoothing: antialiased;
+}
+@utility plush-focus-ring {
+  &:focus-visible {
+    outline: var(--plush-focus-width) solid var(--plush-focus-color);
+    outline-offset: var(--plush-focus-offset);
+  }
+}
+/* A dark container (black card, button bar): the focus ring of everything inside turns light. */
+@utility plush-on-dark {
+  --plush-focus-color: var(--plush-on-accent);
+  --plush-surface-hover: var(--plush-fill);
+}

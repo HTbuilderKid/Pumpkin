@@ -1,0 +1,18 @@
+{
+  "name": "avatar",
+  "type": "registry:ui",
+  "title": "Avatar",
+  "description": "an avatar with letters on a colour or a photo, alone or in a stack. drop-in for the shadcn avatar.",
+  "dependencies": [
+    "radix-ui@1.8.1",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/avatar.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

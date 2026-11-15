@@ -1,0 +1,23 @@
+{
+  "name": "input-otp",
+  "type": "registry:ui",
+  "title": "Input OTP",
+  "description": "a one-time code field of six boxes with a gliding caret. drop-in for the shadcn input-otp.",
+  "dependencies": [
+    "input-otp@1.5.0",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/input-otp.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "key:5"
+    ]
+  }
+}

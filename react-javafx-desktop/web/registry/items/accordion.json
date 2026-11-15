@@ -1,0 +1,8 @@
+{
+  "name": "accordion",
+  "type": "registry:ui",
+  "title": "Accordion",
+  "description": "an accordion whose answers spring open and shut. drop-in for the shadcn accordion.",
+  "dependencies": ["radix-ui@1.8.1", "cn@0.5.2", "@hugeicons/react@1.1.10", "@hugeicons/core-free-icons@4.4.0"],
+  "files": [{ "path": "components/ui/accordion.tsx", "type": "registry:ui" }]
+}

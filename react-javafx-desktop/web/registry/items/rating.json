@@ -1,0 +1,25 @@
+{
+  "name": "rating",
+  "type": "registry:ui",
+  "title": "Rating",
+  "description": "a star rating built on a radio group.",
+  "dependencies": [
+    "radix-ui@1.8.1",
+    "cn@0.5.2",
+    "@hugeicons/react@1.1.10",
+    "@hugeicons/core-free-icons@4.4.0"
+  ],
+  "files": [
+    {
+      "path": "components/ui/rating.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "testAction": [
+      "kdown:ArrowRight",
+      "wait:60",
+      "kup:ArrowRight"
+    ]
+  }
+}
